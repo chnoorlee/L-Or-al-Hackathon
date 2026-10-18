@@ -1,8 +1,10 @@
 # 匀色遮瑕助手
 
-[打开匀色遮瑕工作室](https://chnoorlee.github.io/L-Or-al-Hackathon/) · [部署与手机使用说明](docs/browser-preview-access.md)
+[打开匀色遮瑕工作室](https://chnoorlee.github.io/L-Or-al-Hackathon/) · [下载安装包](https://github.com/chnoorlee/L-Or-al-Hackathon/releases) · [移动端构建与安装说明](docs/mobile-v0.8.md)
 
 网站由 GitHub Pages 托管，推送到 `main` 后自动检查、构建并部署；不依赖本机或临时隧道保持在线。微信小程序源码继续保留在 `miniprogram/`。
+
+v0.8 增加照片放大/拖动、直接拍照和系统分享，新增 Android / iOS 工程。Android 使用项目签名；iOS 暂无 Apple 签名资料，Release 中的设备包明确标为未签名，不能直接在 iPhone 安装。模型和网页随 App 打包，局部照片遮瑕可离线使用。App 仅在用户主动分享时将导出图暂存于私有缓存，下次启动清理。
 
 浏览器版面向白癜风与局部肤色差异人群，提供自主选择的遮瑕预览。默认流程是「选择皮肤照片 → 点选想遮盖的位置 A 与周围参考肤色 B → 修整选区 → 调整遮盖程度」。支持面部、手部、手臂等照片，提供补涂、擦除、加选相似区域、撤销、强度与边缘微调、原图/分屏对比和图片保存。
 

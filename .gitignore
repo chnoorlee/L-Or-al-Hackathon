@@ -11,4 +11,17 @@ web/public/vendor/
 !.env.example
 *.pem
 *.key
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+android/.gradle/
+android/local.properties
+android/**/build/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor*.json
+ios/App/App/public/
+ios/App/App/capacitor.config.json
+ios/App/Pods/
+ios/**/xcuserdata/
 

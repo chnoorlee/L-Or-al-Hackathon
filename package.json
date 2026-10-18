@@ -1,9 +1,9 @@
 {
   "name": "even-tone-concealer-assistant",
-  "version": "0.1.0",
+  "version": "0.8.0",
   "private": true,
   "type": "module",
-  "description": "匀色遮瑕助手微信原生小程序 MVP",
+  "description": "匀色遮瑕工作室：网页、Android、iOS 与微信小程序",
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
@@ -21,9 +21,13 @@
     "web:check": "tsc -p web/tsconfig.json",
     "web:build": "npm run web:check && vite build web --outDir ../dist/web --emptyOutDir",
     "web:preview": "vite preview web --host 0.0.0.0 --port 5173 --outDir ../dist/web",
-    "web:serve": "node scripts/serve-web.mjs"
+    "web:serve": "node scripts/serve-web.mjs",
+    "mobile:sync": "npm run web:build -- --base / && cap sync",
+    "mobile:android": "cap open android",
+    "mobile:ios": "cap open ios"
   },
   "devDependencies": {
+    "@capacitor/cli": "8.5.3",
     "@types/node": "^26.6.5",
     "@vitest/coverage-v8": "^4.1.11",
     "miniprogram-api-typings": "^5.2.3",
@@ -32,7 +36,14 @@
     "vite": "8.3.4",
     "vitest": "^4.1.11"
   },
+  "overrides": { "xcode": { "uuid": "11.1.1" } },
   "dependencies": {
+    "@capacitor/android": "8.5.3",
+    "@capacitor/app": "8.1.2",
+    "@capacitor/core": "8.5.3",
+    "@capacitor/filesystem": "8.1.5",
+    "@capacitor/ios": "8.5.3",
+    "@capacitor/share": "8.0.3",
     "@mediapipe/tasks-vision": "1.1.1"
   }
 }
