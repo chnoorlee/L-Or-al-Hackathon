@@ -1,0 +1,50 @@
+<page-meta root-font-size="system" />
+<view class="page-shell entry-page" aria-hidden="{{privacyDialogVisible}}">
+  <view class="studio-masthead">
+    <text class="studio-wordmark">EVEN TONE<text class="wordmark-dot">.</text></text>
+    <text class="studio-caption">匀色试妆工作室</text>
+  </view>
+  <view class="entry-hero">
+    <view class="hero-copy">
+      <text class="hero-eyebrow">自在，由你定义</text>
+      <view class="hero-title" aria-role="heading" aria-level="1"><text>喜欢的妆效，</text><text>由你决定。</text></view>
+      <view class="hero-description"><text>从一处肤色开始，</text><text>探索自己的匀色妆效。</text></view>
+    </view>
+    <image class="hero-art" src="/assets/tone-mirror.svg" mode="aspectFit" aria-hidden="true"></image>
+    <text class="hero-art-label">色彩概念插画</text>
+  </view>
+  <view class="entry-live">
+    <view class="entry-live__heading"><text class="entry-section-title">你的随身试妆镜</text><text class="live-pill"><text class="live-pill__dot"></text>实时模式</text></view>
+    <text class="entry-description">让脸部入镜，叠加底妆、唇色与腮红；也可圈选局部遮瑕。</text>
+    <button id="entry-live" class="primary-button live-entry-button" hover-class="button-hover" disabled="{{isBusy}}" bindtap="onLiveTryOn"><text class="mirror-icon" aria-hidden="true"></text><text>打开实时试妆镜</text><text class="button-arrow" aria-hidden="true">↗</text></button>
+  </view>
+  <view wx:if="{{errorMessage}}" class="inline-error" aria-role="alert" aria-live="assertive"><text>{{errorMessage}}</text><button wx:if="{{canOpenSettings}}" class="inline-action" bindtap="onOpenSettings">打开设置</button></view>
+  <view class="photo-entry-heading"><text class="entry-section-title">也可以，从一张照片开始</text><text class="entry-mini-label">照片模式</text></view>
+  <view class="entry-actions">
+    <button id="entry-camera" class="secondary-button photo-entry" hover-class="control-hover" disabled="{{isBusy}}" loading="{{isBusy && pendingSource === 'camera'}}" aria-busy="{{isBusy && pendingSource === 'camera'}}" bindtap="onChooseCamera"><text class="camera-icon" aria-hidden="true"></text><text>拍一张照片</text></button>
+    <button id="entry-album" class="secondary-button photo-entry" hover-class="control-hover" disabled="{{isBusy}}" loading="{{isBusy && pendingSource === 'album'}}" aria-busy="{{isBusy && pendingSource === 'album'}}" bindtap="onChooseAlbum"><text class="album-icon" aria-hidden="true"></text><text>从相册选择</text></button>
+  </view>
+  <text class="camera-entry-note">在手机微信中，拍照会打开这部手机的相机。</text>
+  <view wx:if="{{isBusy}}" class="busy-status" aria-role="status" aria-live="polite"><text class="busy-status__mark" aria-hidden="true"></text><text>正在准备图片，马上开始试妆</text></view>
+  <view class="entry-guide">
+    <button id="entry-guide-toggle" class="guide-toggle" hover-class="control-hover" bindtap="onToggleGuide" aria-expanded="{{guideExpanded}}" aria-controls="entry-guide-content"><view><text class="guide-title">局部遮瑕，怎么开始？</text><text class="guide-subtitle">两处取色，确认你的试妆区域</text></view><text class="guide-plus" aria-hidden="true">{{guideExpanded ? '−' : '＋'}}</text></button>
+    <view wx:if="{{guideExpanded}}" id="entry-guide-content" class="guide-content">
+      <view class="guide-step"><text class="guide-number">01</text><view><text class="guide-step-title">先选 A，再选 B</text><text>A 是想遮盖的位置，B 是希望接近的周边肤色。</text></view></view>
+      <view class="guide-step"><text class="guide-number">02</text><view><text class="guide-step-title">由你确认轮廓</text><text>检查辅助圈选；照片模式还可涂抹、擦除。</text></view></view>
+      <view class="guide-step"><text class="guide-number">03</text><view><text class="guide-step-title">换妆效，看对比</text><text>试试轻薄底妆、局部遮瑕或柔焦，随时对照原图。</text></view></view>
+      <text class="guide-light">拍摄小提示 · 均匀自然光、关闭滤镜，让画面包含待遮盖位置和周边皮肤。</text>
+    </view>
+  </view>
+  <view class="privacy-note"><text class="privacy-note__title">只在本机，安心试妆</text><text>照片和相机画面不上传，应用不主动保存。</text></view>
+  <text class="disclaimer">视觉模拟，不判断皮肤疾病，不代表商品实测效果。</text>
+  <text class="studio-footer">欧莱雅黑客松 · 概念原型，非官方产品</text>
+  <canvas id="normalizationCanvas" type="2d" class="processing-canvas" aria-hidden="true"></canvas>
+</view>
+<view wx:if="{{privacyDialogVisible}}" class="dialog-backdrop" catchtouchmove="onBlockTouch">
+  <scroll-view class="privacy-dialog" scroll-y="true" aria-role="dialog" aria-modal="true" aria-label="隐私授权说明">
+    <text class="privacy-dialog__title" aria-role="heading" aria-level="2">你的照片，只用于这次试妆</text>
+    <text class="privacy-dialog__body">照片仅在本机用于本次分析，应用不上传、不主动保存。流程结束后会清除应用持有的数据；微信或系统可能短期保留临时缓存。</text>
+    <button id="privacy-agree" class="primary-button" open-type="agreePrivacyAuthorization" bindagreeprivacyauthorization="onAgreePrivacyAuthorization">同意并继续</button>
+    <button class="text-button privacy-dialog__cancel" bindtap="onCancelPrivacy">暂不使用</button>
+  </scroll-view>
+</view>

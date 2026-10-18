@@ -1,0 +1,117 @@
+<page-meta root-font-size="system" />
+
+<view class="page-shell result-page">
+  <view class="studio-masthead"><text class="studio-wordmark" aria-hidden="true">EVEN TONE</text><text class="studio-caption">本次颜色记录</text></view>
+  <view wx:if="{{cleared}}" class="cleared-result">
+    <text class="page-title" aria-role="heading" aria-level="1">本次取样已结束</text>
+    <text class="page-lead">应用持有的图片与取样已清除。微信或系统可能短期保留临时缓存。</text>
+    <view wx:if="{{commerceError}}" class="inline-error" aria-role="alert">{{commerceError}}</view>
+    <button class="primary-button" disabled="{{navigationBusy}}" bindtap="onRestart">返回开始页</button>
+  </view>
+  <block wx:else>
+  <view class="workflow-progress" aria-label="流程进度：第 3 步，共 3 步">
+    <text class="workflow-step workflow-step--done">选择图片</text>
+    <text class="workflow-step workflow-step--done">确认取样</text>
+    <text class="workflow-step workflow-step--current" aria-current="step">查看结果</text>
+  </view>
+
+  <view class="result-heading">
+    <text class="step-kicker">本地取色 · 第 3 步</text>
+    <text class="page-title result-title" aria-role="heading" aria-level="1">{{resultTitle}}</text>
+    <text class="page-lead result-lead">{{conclusionText}}</text>
+  </view>
+
+  <text class="sr-only" aria-role="status" aria-live="polite" aria-atomic="true">{{resultStatusText}}</text>
+
+  <view class="confirmed-samples" aria-label="已确认的取样颜色：{{coverColorText}}；{{referenceColorText}}">
+    <view class="confirmed-sample">
+      <view class="confirmed-swatch" style="{{coverSwatchStyle}}"><text wx:if="{{!coverColor}}">A</text></view>
+      <view class="confirmed-copy"><text class="confirmed-name">A 待遮盖处</text><text class="confirmed-note">已确认取样</text><text class="confirmed-value">{{coverColorText}}</text></view>
+    </view>
+    <view class="confirmed-bridge" aria-hidden="true"><text>→</text><text>接近</text></view>
+    <view class="confirmed-sample">
+      <view class="confirmed-swatch" style="{{referenceSwatchStyle}}"><text wx:if="{{!referenceColor}}">B</text></view>
+      <view class="confirmed-copy"><text class="confirmed-name">B 周边肤色</text><text class="confirmed-note">目标参考色</text><text class="confirmed-value">{{referenceColorText}}</text></view>
+    </view>
+  </view>
+
+  <view class="sample-photo-section">
+    <button class="photo-toggle" hover-class="control-hover" disabled="{{commerceOpening || navigationBusy}}" bindtap="onToggleImage" aria-expanded="{{imageExpanded}}" aria-controls="sample-photo">
+      <text>取样图片</text>
+      <text aria-hidden="true">{{imageExpanded ? '收起 ↑' : '展开 ↓'}}</text>
+    </button>
+    <view wx:if="{{imageExpanded}}" id="sample-photo" class="sample-photo-frame" style="{{photoFrameStyle}}">
+      <image class="sample-photo" src="{{imagePath}}" mode="widthFix" aria-label="本次取样图片；A 为待遮盖处，B 为周边参考处"></image>
+      <view class="result-marker result-marker--cover" style="{{coverMarkerStyle}}" aria-hidden="true"><text>A</text></view>
+      <view class="result-marker result-marker--reference" style="{{referenceMarkerStyle}}" aria-hidden="true"><text>B</text></view>
+    </view>
+  </view>
+
+  <view wx:if="{{qualityText}}" class="inline-warning" aria-role="status">{{qualityText}}</view>
+
+  <view wx:if="{{hasCandidates}}" class="candidate-section">
+    <text class="section-heading" aria-role="heading" aria-level="2">{{candidateSectionTitle}}</text>
+    <view
+      wx:for="{{candidates}}"
+      wx:key="skuId"
+      class="candidate-item {{item.selected ? 'candidate-item--selected' : ''}}"
+      hover-class="candidate-item--pressed"
+      data-sku-id="{{item.skuId}}"
+      bindtap="onSelectCandidate"
+      aria-role="button"
+      aria-disabled="{{commerceOpening || navigationBusy}}"
+      aria-pressed="{{item.selected}}"
+      aria-label="{{item.accessibilityLabel}}"
+    >
+      <image class="product-image" src="{{item.imageAsset}}" mode="aspectFit" aria-hidden="true"></image>
+      <view class="candidate-copy">
+        <text class="candidate-rank">{{item.label}}</text>
+        <text class="candidate-name">{{item.brand}} · {{item.name}}</text>
+        <text class="candidate-shade">{{item.shadeCode}} {{item.shadeName}}</text>
+        <text class="candidate-reason">{{item.reason}}</text>
+        <text class="candidate-source">信息核验于 {{item.verifiedAt}}，以商城为准</text>
+      </view>
+      <text class="candidate-check" aria-hidden="true">{{item.selected ? '已选中 ✓' : '未选中'}}</text>
+    </view>
+  </view>
+
+  <view wx:else class="empty-result">
+    <text class="empty-result__label">暂无可靠候选</text>
+    <text class="empty-result__title" aria-role="heading" aria-level="2">{{emptyTitle}}</text>
+    <text class="empty-result__copy">{{emptyCopy}}</text>
+  </view>
+
+  <view class="limits">
+    <text class="limits__title" aria-role="heading" aria-level="2">参考范围</text>
+    <text wx:if="{{isRanked}}">颜色距离仅用于缩小试色范围，不代表实际遮盖效果、持妆或肤感。</text>
+    <text wx:elif="{{isReferenceOnly}}">这些候选来自已核验的官方色系映射，未按颜色距离排序。</text>
+    <text wx:else>色块只代表本次照片中的取样颜色，不能当作实物肤色、商品色号或遮盖效果。若位置选错，可返回调整；商品缺失无需重拍。</text>
+  </view>
+
+  <view wx:if="{{commerceError}}" class="inline-error" aria-role="alert" aria-live="assertive">{{commerceError}}</view>
+
+  <text class="disclaimer">本工具仅为美妆色号参考，不构成医疗建议，皮肤问题请咨询专业皮肤科医生。</text>
+
+  <view class="result-secondary-actions">
+    <button class="secondary-button" hover-class="control-hover" disabled="{{commerceOpening || navigationBusy}}" bindtap="onAdjustSample">调整取样</button>
+    <button class="text-button" disabled="{{commerceOpening || navigationBusy}}" bindtap="onRestart">重新拍摄/选择</button>
+  </view>
+  <button class="{{hasCandidates ? 'secondary-button' : 'primary-button'}} finish-button" disabled="{{commerceOpening || navigationBusy}}" bindtap="onRestart">完成并清除本次图片</button>
+
+  <view wx:if="{{showCommerceAction}}" class="commerce-dock-spacer" aria-hidden="true">
+    <view class="commerce-summary">
+      <text class="commerce-summary__label">{{commerceSummaryLabel}}</text>
+      <text class="commerce-summary__shade">{{selectedShadeText}}</text>
+    </view>
+    <button class="primary-button commerce-button" disabled="{{true}}" loading="{{commerceOpening}}">{{commerceButtonText}}</button>
+  </view>
+  </block>
+</view>
+
+<view wx:if="{{showCommerceAction}}" class="commerce-dock">
+  <view class="commerce-summary">
+    <text class="commerce-summary__label">{{commerceSummaryLabel}}</text>
+    <text class="commerce-summary__shade">{{selectedShadeText}}</text>
+  </view>
+  <button class="primary-button commerce-button" disabled="{{commerceOpening || navigationBusy}}" loading="{{commerceOpening}}" aria-busy="{{commerceOpening || navigationBusy}}" aria-label="{{commerceButtonText}}，{{selectedShadeText}}" bindtap="onOpenCommerce">{{commerceButtonText}}</button>
+</view>

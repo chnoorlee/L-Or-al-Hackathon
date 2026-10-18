@@ -1,0 +1,46 @@
+<page-meta root-font-size="system" />
+<view class="page-shell tryon-page">
+  <view class="studio-masthead"><text class="studio-wordmark">EVEN TONE.</text><text class="studio-caption">照片试妆</text></view>
+  <view class="tryon-heading"><text class="step-kicker">{{panel === 'region' ? '01 / 确认选区' : '02 / 探索妆效'}}</text><text class="page-title">{{panel === 'region' ? '只在你想试妆的地方' : '今天，喜欢哪种妆效？'}}</text><text class="page-lead">{{panel === 'region' ? '已按 A、B 辅助圈选，可涂抹或擦除修正。' : '选择妆效，调整强度，随时对照原图。'}}</text></view>
+  <view wx:if="{{cleared}}" class="inline-info">{{notice}}</view>
+  <view wx:else>
+    <view class="preview-stage" style="height: {{canvasHeight}}px">
+      <canvas id="tryonCanvas" type="2d" class="preview-canvas" style="height: {{canvasHeight}}px" catchtouchstart="onTouchStart" catchtouchmove="onTouchMove" catchtouchend="onTouchEnd" catchtouchcancel="onTouchCancel" aria-label="{{panel === 'region' ? '试妆选区，可点选或涂抹修正' : '虚拟试妆模拟效果'}}"></canvas>
+    </view>
+    <view class="preview-caption"><text>{{panel === 'region' ? '金色轮廓 · 待确认' : mode === 'original' ? '正在查看原图' : mode === 'split' ? '左侧原图 · 右侧模拟' : '正在查看模拟妆效'}}</text><text>仅在本机处理</text></view>
+    <view wx:if="{{panel === 'region'}}" class="control-panel">
+      <text class="control-notice" aria-role="status">{{notice}}</text>
+      <view class="segmented">
+        <button class="segment {{tool === 'add' ? 'is-active' : ''}}" data-value="add" bindtap="onTool" aria-pressed="{{tool === 'add'}}">补选相似区域</button>
+        <button class="segment {{tool === 'paint' ? 'is-active' : ''}}" data-value="paint" bindtap="onTool" aria-pressed="{{tool === 'paint'}}">涂抹</button>
+        <button class="segment {{tool === 'erase' ? 'is-active' : ''}}" data-value="erase" bindtap="onTool" aria-pressed="{{tool === 'erase'}}">擦除</button>
+      </view>
+      <view wx:if="{{tool === 'add'}}"><view class="control-label"><text>颜色容差</text><text>{{tolerance}}</text></view><slider min="5" max="40" value="{{tolerance}}" data-key="tolerance" bindchange="onControl" activeColor="#78475f" block-size="24" aria-label="颜色容差"/><text class="control-hint">点击其他斑块可补选。调整容差会重新圈选，可撤销恢复手动修改。</text></view>
+      <view wx:else><view class="control-label"><text>笔刷大小</text><text>{{brushSize}}</text></view><slider min="1" max="12" value="{{brushSize}}" data-key="brushSize" bindchange="onControl" activeColor="#78475f" block-size="24" aria-label="笔刷大小"/></view>
+      <view class="action-row"><button class="text-button" bindtap="onAuto" disabled="{{!ready}}">重新自动圈选</button><button class="text-button" bindtap="onUndo" disabled="{{!canUndo}}">撤销</button><button class="text-button" bindtap="onClear" disabled="{{!selectedPixels}}">清空</button></view>
+      <button class="primary-button" disabled="{{!ready || !selectedPixels}}" bindtap="onConfirmRegion">确认选区，开始试妆 →</button>
+    </view>
+    <view wx:else class="control-panel">
+      <view class="segmented"><button class="segment {{mode === 'effect' ? 'is-active' : ''}}" data-key="mode" data-value="effect" bindtap="onChoice" aria-pressed="{{mode === 'effect'}}">妆后</button><button class="segment {{mode === 'split' ? 'is-active' : ''}}" data-key="mode" data-value="split" bindtap="onChoice" aria-pressed="{{mode === 'split'}}">左右对照</button><button class="segment {{mode === 'original' ? 'is-active' : ''}}" data-key="mode" data-value="original" bindtap="onChoice" aria-pressed="{{mode === 'original'}}">原图</button></view>
+      <view class="section-heading"><text class="section-label">挑一种妆效</text><text class="template-note">视觉模拟 · 非商品</text></view>
+      <view class="formula-list"><button class="formula {{formula === 'sheer' ? 'is-selected' : ''}}" data-key="formula" data-value="sheer" bindtap="onChoice" aria-pressed="{{formula === 'sheer'}}"><view class="formula-swatch formula-swatch--sheer" aria-hidden="true"></view><text>轻薄底妆</text><text>透出原生纹理</text></button><button class="formula {{formula === 'concealer' ? 'is-selected' : ''}}" data-key="formula" data-value="concealer" bindtap="onChoice" aria-pressed="{{formula === 'concealer'}}"><view class="formula-swatch formula-swatch--concealer" aria-hidden="true"></view><text>局部遮瑕</text><text>加强局部匀色</text></button><button class="formula {{formula === 'soft' ? 'is-selected' : ''}}" data-key="formula" data-value="soft" bindtap="onChoice" aria-pressed="{{formula === 'soft'}}"><view class="formula-swatch formula-swatch--soft" aria-hidden="true"></view><text>柔焦底妆</text><text>减弱明暗反差</text></button></view>
+      <view class="shade-row"><view class="shade-dot" style="background: {{shadeHex}}"></view><text>当前模拟色调</text><text class="shade-code">{{shadeHex}}</text></view>
+      <view class="control-label"><text>遮盖强度</text><text>{{strength}}%</text></view><slider value="{{strength}}" data-key="strength" bindchanging="onControl" bindchange="onControl" activeColor="#78475f" block-size="24" aria-label="遮盖强度"/>
+      <view wx:if="{{mode === 'split'}}"><view class="control-label"><text>对照分界线</text><text>{{split}}%</text></view><slider value="{{split}}" data-key="split" bindchanging="onControl" bindchange="onControl" activeColor="#78475f" block-size="24" aria-label="妆前妆后分界线"/></view>
+      <button id="studio-fine-toggle" class="fine-toggle" bindtap="onFineTune" aria-expanded="{{fineTune}}" aria-controls="studio-fine-panel"><text>精细微调</text><text>{{fineTune ? '收起 −' : '冷暖、明度与边缘 ＋'}}</text></button>
+      <view wx:if="{{fineTune}}" id="studio-fine-panel" class="fine-panel">
+      <view class="control-label"><text>冷暖 · 冷 ↔ 暖</text><text>{{warmth}}</text></view><slider min="-30" max="30" value="{{warmth}}" data-key="warmth" bindchanging="onControl" bindchange="onControl" activeColor="#78475f" block-size="24" aria-label="冷暖色调"/>
+      <view class="control-label"><text>明度 · 深 ↔ 浅</text><text>{{brightness}}</text></view><slider min="-30" max="30" value="{{brightness}}" data-key="brightness" bindchanging="onControl" bindchange="onControl" activeColor="#78475f" block-size="24" aria-label="模拟色明度"/>
+      <view class="control-label"><text>边缘柔化</text><text>{{feather}}</text></view><slider min="0" max="16" value="{{feather}}" data-key="feather" bindchanging="onControl" bindchange="onControl" activeColor="#78475f" block-size="24" aria-label="选区边缘柔化"/>
+      <view class="control-label"><text>显示选区轮廓</text><switch checked="{{outline}}" bindchange="onOutline" color="#70552d" aria-label="显示选区轮廓"/></view>
+      </view>
+      <view class="action-row"><button class="text-button" bindtap="onEditRegion">调整选区</button><button class="text-button" bindtap="onResetMakeup">重置妆效</button></view>
+      <button class="secondary-button" bindtap="onLive">打开摄像头实时试妆</button>
+    </view>
+  </view>
+  <view wx:if="{{error}}" class="inline-error" aria-role="alert">{{error}}</view>
+  <text class="preview-disclaimer">辅助圈选仅识别颜色差异，不判断白癜风。妆效为模拟，实际遮盖受产品、用量与光线影响。</text>
+  <button class="text-button" bindtap="onBack">{{cleared ? '返回重新选择' : '返回调整 A、B 取样'}}</button>
+  <button class="text-button" bindtap="onFinish">{{cleared ? '返回首页' : '完成并清除本次图片'}}</button>
+  <text class="studio-footer">本机处理 · 不上传、不主动保存</text>
+</view>

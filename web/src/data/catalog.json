@@ -1,0 +1,3850 @@
+{
+  "generatedAt": "2026-10-18T03:13:13.222Z",
+  "purpose": "Visual try-on using public website swatches. Not a calibrated recommendation catalog.",
+  "products": [
+    {
+      "id": "lipstick-071249704455",
+      "category": "lipstick",
+      "name": "Colour Riche Blurred Matte Lipstick for Hydration and Minimized Lip Lines",
+      "finish": "matte",
+      "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick",
+      "shades": [
+        {
+          "id": "071249704455",
+          "name": "601 Worth It",
+          "hex": "#AC5E64",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick"
+        },
+        {
+          "id": "071249704479",
+          "name": "545 Nude Nonchalant",
+          "hex": "#934046",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick-nude-nonchalant-545"
+        },
+        {
+          "id": "071249704486",
+          "name": "560 Rosewood Influence",
+          "hex": "#8E5A51",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick-rosewood-influence-560"
+        },
+        {
+          "id": "071249704493",
+          "name": "190 Cherry Charm",
+          "hex": "#9E3C4D",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick-cherry-charm-190"
+        },
+        {
+          "id": "071249704509",
+          "name": "525 Auburn Aspiration",
+          "hex": "#883722",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick-auburn-aspiration-525"
+        },
+        {
+          "id": "071249704516",
+          "name": "635 Worth It Medium",
+          "hex": "#9F4050",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick-worth-it-medium-635"
+        },
+        {
+          "id": "071249704523",
+          "name": "570 Worth It Intense",
+          "hex": "#84373A",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick-worth-it-intense-570"
+        },
+        {
+          "id": "071249704530",
+          "name": "300 Le Rouge Paris",
+          "hex": "#A72537",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick-le-rouge-paris-300"
+        },
+        {
+          "id": "071249704547",
+          "name": "102 Rose Passion",
+          "hex": "#D39AA8",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick-rose-passion-102"
+        },
+        {
+          "id": "071249704554",
+          "name": "590 Blushing Berry",
+          "hex": "#A25165",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick-blushing-berry-590"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-blurred-matte-lipstick",
+        "retrievedAt": "2026-10-18T03:12:32.956Z",
+        "htmlSha256": "40f3d0c1d8f9bfbaa8214732999d6ff185a78f86807999a78f545c505718aa7a",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "lipstick-071249256206",
+      "category": "lipstick",
+      "name": "Colour Riche Satin Lipstick for Luxurious Hydration and Color",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour",
+      "shades": [
+        {
+          "id": "071249256206",
+          "name": "135 Ballerina Shoes",
+          "hex": "#E86B9E",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour"
+        },
+        {
+          "id": "071249083765",
+          "name": "300 Le Rouge Paris",
+          "hex": "#BA1A2F",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-le-rouge-paris"
+        },
+        {
+          "id": "071249684184",
+          "name": "601 Worth it",
+          "hex": "#D57A75",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-worth-it-601"
+        },
+        {
+          "id": "071249684191",
+          "name": "635 Worth It Medium",
+          "hex": "#A45354",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-worth-it-medium-635"
+        },
+        {
+          "id": "071249415870",
+          "name": "120 Rouge St. Germain",
+          "hex": "#AB0016",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-rouge-st-germain"
+        },
+        {
+          "id": "071249415887",
+          "name": "124 SIl Vous Plait",
+          "hex": "#600E37",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-s-il-vous-plait"
+        },
+        {
+          "id": "071249415832",
+          "name": "125 Maison Marais",
+          "hex": "#D32318",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-maison-marais"
+        },
+        {
+          "id": "071249415733",
+          "name": "127 Paris.NY",
+          "hex": "#690530",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-paris-ny"
+        },
+        {
+          "id": "071249415757",
+          "name": "129 Montmartre",
+          "hex": "#C5717E",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-montmartre"
+        },
+        {
+          "id": "071249415740",
+          "name": "137 Berry Parisienne",
+          "hex": "#A62669",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-berry-parisienne"
+        },
+        {
+          "id": "071249045701",
+          "name": "140 Mauved ",
+          "hex": "#C26D79",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-mauved-140"
+        },
+        {
+          "id": "071249083352",
+          "name": "165 Tickled Pink",
+          "hex": "#C88DAD",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-tickled-pink-165"
+        },
+        {
+          "id": "071249256213",
+          "name": "175 I Pink Youre Cute",
+          "hex": "#F67C8B",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-i-pink-youre-cute"
+        },
+        {
+          "id": "071249256220",
+          "name": "180 Pink Flamingo",
+          "hex": "#F51999",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-pink-flamingo"
+        },
+        {
+          "id": "071249256237",
+          "name": "185 Miss Magenta",
+          "hex": "#90072C",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-miss-magenta"
+        },
+        {
+          "id": "071249415788",
+          "name": "236 Organza",
+          "hex": "#AB5763",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-organza"
+        },
+        {
+          "id": "071249256244",
+          "name": "251 Wisteria Rose",
+          "hex": "#C93237",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-wisteria-rose"
+        },
+        {
+          "id": "071249256251",
+          "name": "254 Everbloom",
+          "hex": "#C01752",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-everbloom"
+        },
+        {
+          "id": "071249256268",
+          "name": "260 Raspberry Rush",
+          "hex": "#E9003D",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-raspberry-rush"
+        },
+        {
+          "id": "071249256275",
+          "name": "262 Fresh as a Rose",
+          "hex": "#C80043",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-fresh-as-a-rose"
+        },
+        {
+          "id": "071249415863",
+          "name": "297 Red Passion",
+          "hex": "#C30015",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-red-passion"
+        },
+        {
+          "id": "071249216408",
+          "name": "303 Blazing Lava",
+          "hex": "#6B1311",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-blazing-lava"
+        },
+        {
+          "id": "071249216392",
+          "name": "317 Ruby Flame",
+          "hex": "#8D101E",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-ruby-flame"
+        },
+        {
+          "id": "071249045770",
+          "name": "350 British Red",
+          "hex": "#CE1B22",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-british-red-350"
+        },
+        {
+          "id": "071249045787",
+          "name": "410 Volcanic",
+          "hex": "#D93A37",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-volcanic-410"
+        },
+        {
+          "id": "071249074527",
+          "name": "417 Peach Fuzz",
+          "hex": "#B5533F",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-peach-fuzz-417"
+        },
+        {
+          "id": "071249083321",
+          "name": "444 Tropical Coral",
+          "hex": "#B84A4C",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-tropical-coral-444"
+        },
+        {
+          "id": "071249045824",
+          "name": "560 Saucy Mauve",
+          "hex": "#882F43",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-saucy-mauve-560"
+        },
+        {
+          "id": "071249690840",
+          "name": "570 Worth It Intense",
+          "hex": "#8A4E4F",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-worth-it-intense-570"
+        },
+        {
+          "id": "071249074534",
+          "name": "580 Peony Pink",
+          "hex": "#994D65",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-peony-pink-580"
+        },
+        {
+          "id": "071249074541",
+          "name": "590 Blushing Berry",
+          "hex": "#A33750",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-blushing-berry-590"
+        },
+        {
+          "id": "071249045855",
+          "name": "620 Mica",
+          "hex": "#8C5458",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-mica-620"
+        },
+        {
+          "id": "071249045633",
+          "name": "752 Classic Wine",
+          "hex": "#A51734",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-classic-wine-752"
+        },
+        {
+          "id": "071249083376",
+          "name": "754 Sugar Plum",
+          "hex": "#AC3D60",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-sugar-plum-754"
+        },
+        {
+          "id": "071249045640",
+          "name": "755 Spiced Cider",
+          "hex": "#8E3F3E",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-spiced-cider-755"
+        },
+        {
+          "id": "071249045923",
+          "name": "760 Silverstone",
+          "hex": "#8D5248",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-silverstone-760"
+        },
+        {
+          "id": "071249083727",
+          "name": "762 Divine Wine",
+          "hex": "#7C3C3F",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-divine-wine-762"
+        },
+        {
+          "id": "071249216378",
+          "name": "766 Plum Explosion",
+          "hex": "#920229",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-plum-explosion"
+        },
+        {
+          "id": "071249083406",
+          "name": "799 Caramel Latte",
+          "hex": "#B5816E",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-caramel-latte-799"
+        },
+        {
+          "id": "071249083291",
+          "name": "800 Fairest Nude",
+          "hex": "#B3857D",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-fairest-nude-800"
+        },
+        {
+          "id": "071249083512",
+          "name": "805 Golden Splendor",
+          "hex": "#8B524B",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-golden-splendor-805"
+        },
+        {
+          "id": "071249045930",
+          "name": "810 Sandstone",
+          "hex": "#7D2D2D",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-sandstone-810"
+        },
+        {
+          "id": "071249083222",
+          "name": "815 Ginger Spice",
+          "hex": "#6E3124",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-ginger-spice-815"
+        },
+        {
+          "id": "071249045947",
+          "name": "825 Bronzine",
+          "hex": "#683527",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-bronzine-825"
+        },
+        {
+          "id": "071249045954",
+          "name": "835 Bronze Coin",
+          "hex": "#824A33",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-bronze-coin-835"
+        },
+        {
+          "id": "071249045657",
+          "name": "839 Cinnamon Toast",
+          "hex": "#953E32",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-cinnamon-toast-839"
+        },
+        {
+          "id": "071249045961",
+          "name": "840 Natures Blush",
+          "hex": "#9D6053",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-natures-blush-840"
+        },
+        {
+          "id": "071249045664",
+          "name": "843 Toasted Almond",
+          "hex": "#B3715F",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-toasted-almond-843"
+        },
+        {
+          "id": "071249045992",
+          "name": "850 Brazil Nut",
+          "hex": "#894D3E",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-brazil-nut-850"
+        },
+        {
+          "id": "071249046012",
+          "name": "857 Sunwash",
+          "hex": "#804E43",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-sunwash-857"
+        },
+        {
+          "id": "071249046029",
+          "name": "860 Spice",
+          "hex": "#42211C",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-spice-860"
+        },
+        {
+          "id": "071249074558",
+          "name": "892 Raisin Rapture",
+          "hex": "#8D3033",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-raisin-rapture-892"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour",
+        "retrievedAt": "2026-10-18T03:12:33.457Z",
+        "htmlSha256": "0989f25aee3a7bcb0e515ae19f8ddf40564c5728e1433a0e8c89f2b47eadfae3",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "lipstick-071249658567",
+      "category": "lipstick",
+      "name": "Intense Volume Matte Lipstick",
+      "finish": "matte",
+      "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick",
+      "shades": [
+        {
+          "id": "071249658567",
+          "name": "Le Nude Admirable",
+          "hex": "#C65889",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick"
+        },
+        {
+          "id": "071249682197",
+          "name": "Le Berry Brilliant",
+          "hex": "#CB5E6A",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-le-berry-brilliant"
+        },
+        {
+          "id": "071249682180",
+          "name": "Le Coral Gracious",
+          "hex": "#C23E4F",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-le-coral-gracious"
+        },
+        {
+          "id": "071249682135",
+          "name": "Le Nude Assertive",
+          "hex": "#773030",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-nude-assertive"
+        },
+        {
+          "id": "071249682128",
+          "name": "Le Nude Defiant",
+          "hex": "#955144",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-nude-defiant"
+        },
+        {
+          "id": "071249682166",
+          "name": "Le Nude Rebellious",
+          "hex": "#D4788C",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-nude-rebellious"
+        },
+        {
+          "id": "071249682159",
+          "name": "Le Nude Resilient",
+          "hex": "#D67878",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-nude-resilient"
+        },
+        {
+          "id": "071249682142",
+          "name": "Le Nude Unstoppable",
+          "hex": "#CC5263",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-nude-unstoppable"
+        },
+        {
+          "id": "071249682203",
+          "name": "Le Rouge Paris",
+          "hex": "#9C1D28",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-rouge-paris"
+        },
+        {
+          "id": "071249682210",
+          "name": "Worth It",
+          "hex": "#D1637D",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-worth-it"
+        },
+        {
+          "id": "071249682104",
+          "name": "Worth It Intense",
+          "hex": "#8C333D",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-worth-it-intense"
+        },
+        {
+          "id": "071249691960",
+          "name": "Worth It Medium",
+          "hex": "#AA4954",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-worth-it-medium"
+        },
+        {
+          "id": "071249658635",
+          "name": "Le Rose Activist",
+          "hex": "#D10E63",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-rose-activist"
+        },
+        {
+          "id": "071249658598",
+          "name": " Le Mauve Indomptable",
+          "hex": "#B74074",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-mauve-indomptable"
+        },
+        {
+          "id": "071249658581",
+          "name": "Le Wood Nonchalant",
+          "hex": "#AB5153",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-wood-nonchalant"
+        },
+        {
+          "id": "071249658611",
+          "name": "Le Coral Irreverent",
+          "hex": "#FA357E",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-coral-irreverent"
+        },
+        {
+          "id": "071249658550",
+          "name": "Le Rosy Confident",
+          "hex": "#E45799",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-rosy-confident"
+        },
+        {
+          "id": "071249658697",
+          "name": "Le Plum Dominant",
+          "hex": "#7F1E48",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-plum-dominant"
+        },
+        {
+          "id": "071249658673",
+          "name": "Le Rouge Avant-Garde",
+          "hex": "#BA0431",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-rouge-avant-garde"
+        },
+        {
+          "id": "071249658628",
+          "name": "Le Rosewood Ambition",
+          "hex": "#B12D7B",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-rosewood-ambition"
+        },
+        {
+          "id": "071249658574",
+          "name": "Le Nude Independant",
+          "hex": "#C03B6B",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-nude-independant"
+        },
+        {
+          "id": "071249658666",
+          "name": "Le Rouge Determination",
+          "hex": "#DC0F34",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick-le-rouge-determination"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/intense-volume-matte-lipstick",
+        "retrievedAt": "2026-10-18T03:12:35.240Z",
+        "htmlSha256": "6b938ad488ed25c78c2610b7a55e063998ac86f8d89deb937fe5049d79544681",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "lipstick-071249651254",
+      "category": "lipstick",
+      "name": "Balm-in-Lipstick with Pomegranate Extract",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract",
+      "shades": [
+        {
+          "id": "071249651254",
+          "name": "Peach Charm",
+          "hex": "#F0878B",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract"
+        },
+        {
+          "id": "071249651193",
+          "name": "Pastel Exaltation",
+          "hex": "#E08187",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract-pastel-exaltation"
+        },
+        {
+          "id": "071249651216",
+          "name": "Blush Fantasy",
+          "hex": "#B95C6C",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract-blush-fantasy"
+        },
+        {
+          "id": "071249651230",
+          "name": "Nude Heaven",
+          "hex": "#DC8188",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract-nude-heaven"
+        },
+        {
+          "id": "071249651278",
+          "name": "Rose Mirage",
+          "hex": "#D7636E",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract-rose-mirage"
+        },
+        {
+          "id": "071249651285",
+          "name": "Cherry Wonderland",
+          "hex": "#F17571",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract-cherry-wonderland"
+        },
+        {
+          "id": "071249651292",
+          "name": "Luminous Coral",
+          "hex": "#9F5745",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract-luminous-coral"
+        },
+        {
+          "id": "071249651308",
+          "name": "Beige Eden",
+          "hex": "#D7867F",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract-beige-eden"
+        },
+        {
+          "id": "071249651315",
+          "name": "Ecstatic Mulberry",
+          "hex": "#A42F53",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract-ecstatic-mulberry"
+        },
+        {
+          "id": "071249651339",
+          "name": "Mulberry Bliss",
+          "hex": "#AA5A62",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract-mulberry-bliss"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract",
+        "retrievedAt": "2026-10-18T03:12:36.175Z",
+        "htmlSha256": "7d582000f9f3ca5bda7c06f6456dec9b77414d7db8b2dedf5a3d22d8b8373523",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "gloss-071249710203",
+      "category": "gloss",
+      "name": "Hyaluron Lip Oil Shimmer Infinite Lights for Plump, Shimmery Lips",
+      "finish": "shimmer",
+      "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-infinite-lights-hyaluron-lip-oil",
+      "shades": [
+        {
+          "id": "071249710203",
+          "name": "Rose Lights",
+          "hex": "#E18D87",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-infinite-lights-hyaluron-lip-oil"
+        },
+        {
+          "id": "071249710173",
+          "name": "Nude Lights",
+          "hex": "#EED5CA",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-infinite-lights-hyaluron-lip-oil-nude-lights-160"
+        },
+        {
+          "id": "071249710180",
+          "name": "Quartz Lights",
+          "hex": "#FCCCC8",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-infinite-lights-hyaluron-lip-oil-quartz-lights-170"
+        },
+        {
+          "id": "071249710197",
+          "name": "Peach Lights",
+          "hex": "#E09A8C",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-infinite-lights-hyaluron-lip-oil-peach-lights-645"
+        },
+        {
+          "id": "071249710210",
+          "name": "Mauve Lights",
+          "hex": "#BA8890",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-infinite-lights-hyaluron-lip-oil-mauve-lights-680"
+        },
+        {
+          "id": "071249710227",
+          "name": "Rosewood Lights",
+          "hex": "#C68698",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-infinite-lights-hyaluron-lip-oil-rosewood-lights-670"
+        },
+        {
+          "id": "071249710234",
+          "name": "Ruby Lights",
+          "hex": "#A24E4E",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-infinite-lights-hyaluron-lip-oil-ruby-lights-500"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-infinite-lights-hyaluron-lip-oil",
+        "retrievedAt": "2026-10-18T03:12:37.109Z",
+        "htmlSha256": "82477900e70353095689ccc8307464b801c4afc4fa5d6ef4bfebf50f349866d6",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "gloss-071249704370",
+      "category": "gloss",
+      "name": "Hyaluron Tint Hydrating Lip Stain Serum",
+      "finish": "gloss",
+      "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/paradise-hyaluron-tint-lip-stain-serum",
+      "shades": [
+        {
+          "id": "071249704370",
+          "name": "601 Worth It",
+          "hex": "#B96F6F",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/paradise-hyaluron-tint-lip-stain-serum"
+        },
+        {
+          "id": "071249704387",
+          "name": "217 Smoky Mauve",
+          "hex": "#9D5D69",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/paradise-hyaluron-tint-lip-stain-serum-smoky-mauve-217"
+        },
+        {
+          "id": "071249704394",
+          "name": "635 Worth It Medium",
+          "hex": "#955156",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/paradise-hyaluron-tint-lip-stain-serum-worth-it-medium-635"
+        },
+        {
+          "id": "071249704400",
+          "name": "640 Tea Time",
+          "hex": "#944642",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/paradise-hyaluron-tint-lip-stain-serum-tea-time-640"
+        },
+        {
+          "id": "071249704417",
+          "name": "420 Le Rouge Paris",
+          "hex": "#950A0F",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/paradise-hyaluron-tint-lip-stain-serum-le-rouge-paris-420"
+        },
+        {
+          "id": "071249704424",
+          "name": "490 Berry Jolie",
+          "hex": "#8A263E",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/paradise-hyaluron-tint-lip-stain-serum-berry-jolie-490"
+        },
+        {
+          "id": "071249704431",
+          "name": "521 Bordeaux Please",
+          "hex": "#822F31",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/paradise-hyaluron-tint-lip-stain-serum-bordeaux-please-521"
+        },
+        {
+          "id": "071249704448",
+          "name": "680 Nude Espresso",
+          "hex": "#965850",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/paradise-hyaluron-tint-lip-stain-serum-nude-espresso-680"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/paradise-hyaluron-tint-lip-stain-serum",
+        "retrievedAt": "2026-10-18T03:12:37.594Z",
+        "htmlSha256": "0c7a20438f411e0a73a7bf9b142b437bd79324017b9b3480dd60f1c8749d0c7f",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "gloss-071249690345",
+      "category": "gloss",
+      "name": "Hyaluron Lip Oil For Plumper Looking Lips with Glass-like Shine",
+      "finish": "gloss",
+      "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil",
+      "shades": [
+        {
+          "id": "071249690345",
+          "name": "Cristal Clear 101",
+          "hex": "#FAECF2",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil"
+        },
+        {
+          "id": "071249690352",
+          "name": "Milky Nu 201",
+          "hex": "#FCDDD9",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-milky-nu-201"
+        },
+        {
+          "id": "071249690369",
+          "name": "Worth It 601",
+          "hex": "#CD797E",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-worth-it-601"
+        },
+        {
+          "id": "071249690376",
+          "name": "Latte Glac&#233; 641",
+          "hex": "#DB8C7F",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-latte-glace-641"
+        },
+        {
+          "id": "071249690383",
+          "name": "Nude Macaron 650",
+          "hex": "#E07B75",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-nude-macaron-650"
+        },
+        {
+          "id": "071249690390",
+          "name": "Rouge In Love 380",
+          "hex": "#D54F74",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-rouge-in-love-380"
+        },
+        {
+          "id": "071249690406",
+          "name": "Cherry Cherie 390",
+          "hex": "#B93E58",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-cherry-cherie-390"
+        },
+        {
+          "id": "071249690413",
+          "name": "La Nuit Sparkle 510",
+          "hex": "#8D5F53",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-le-nuit-sparkle-510"
+        },
+        {
+          "id": "071249690420",
+          "name": "Wine O'Clock 485",
+          "hex": "#A84E54",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-wine-o-clock-485"
+        },
+        {
+          "id": "071249690437",
+          "name": "Berry Jolie 490",
+          "hex": "#A24167",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-berry-jolie-490"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil",
+        "retrievedAt": "2026-10-18T03:12:38.064Z",
+        "htmlSha256": "5fd6d0524daee4a4d737a6ba4482d67e077ed1b743ef86cfebdd87f2ef0ad332",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "gloss-071249701331",
+      "category": "gloss",
+      "name": "pH Color Changing Hyaluron Lip Oil",
+      "finish": "gloss",
+      "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-ph",
+      "shades": [
+        {
+          "id": "071249701331",
+          "name": "pH Cristal Ice 010",
+          "hex": "#BBD6DB",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-ph"
+        },
+        {
+          "id": "071249701317",
+          "name": "pH Ros&#233; 020",
+          "hex": "#E9C4C4",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-ph-rose-020"
+        },
+        {
+          "id": "071249701324",
+          "name": "pH Lilac 050",
+          "hex": "#C17AA6",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-ph-lilac-050"
+        },
+        {
+          "id": "071249701348",
+          "name": "pH Berry Noir 090",
+          "hex": "#443B58",
+          "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-ph-berry-noir-090"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/lip-color/lip-gloss/plump-ambition-hyaluron-lip-oil-ph",
+        "retrievedAt": "2026-10-18T03:12:38.552Z",
+        "htmlSha256": "1cb8bf61106dc4d4837bf12217a26262acd72f0032e51a0fc918b5189adf6f92",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "foundation-071249710340",
+      "category": "foundation",
+      "name": "Cushion Foundation for Soft Matte Buildable Coverage",
+      "finish": "matte",
+      "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation",
+      "shades": [
+        {
+          "id": "071249710340",
+          "name": "130 Warm",
+          "hex": "#F0CBAA",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation"
+        },
+        {
+          "id": "071249710449",
+          "name": "15 Cool",
+          "hex": "#FDE7DA",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-15-cool"
+        },
+        {
+          "id": "071249710296",
+          "name": "20 Cool",
+          "hex": "#FDE1CD",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-20-cool"
+        },
+        {
+          "id": "071249710302",
+          "name": "50 Neutral",
+          "hex": "#F6DCC2",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-50-neutral"
+        },
+        {
+          "id": "071249710319",
+          "name": "100 Neutral",
+          "hex": "#F8D5B6",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-100-neutral"
+        },
+        {
+          "id": "071249710326",
+          "name": "120 Warm",
+          "hex": "#F0D0B2",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-120-warm"
+        },
+        {
+          "id": "071249710333",
+          "name": "127 Neutral",
+          "hex": "#EDCFB7",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-127-neutral"
+        },
+        {
+          "id": "071249710357",
+          "name": "140 Neutral",
+          "hex": "#EDC3A6",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-140-neutral"
+        },
+        {
+          "id": "071249710364",
+          "name": "220 Cool",
+          "hex": "#F1C598",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-220-cool"
+        },
+        {
+          "id": "071249710371",
+          "name": "250 Neutral",
+          "hex": "#E9BC97",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-250-neutral"
+        },
+        {
+          "id": "071249710456",
+          "name": "253 Warm",
+          "hex": "#DDB08B",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-253-warm"
+        },
+        {
+          "id": "071249710388",
+          "name": "257 Warm",
+          "hex": "#E5B284",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-257-warm"
+        },
+        {
+          "id": "071249710395",
+          "name": "260 Warm",
+          "hex": "#E6B18B",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-260-warm"
+        },
+        {
+          "id": "071249710401",
+          "name": "300 Cool",
+          "hex": "#D59F7D",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-300-cool"
+        },
+        {
+          "id": "071249710418",
+          "name": "320 Cool",
+          "hex": "#C89064",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-320-cool"
+        },
+        {
+          "id": "071249710425",
+          "name": "365 Neutral",
+          "hex": "#B8734F",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-365-neutral"
+        },
+        {
+          "id": "071249710463",
+          "name": "370 Cool",
+          "hex": "#A2623E",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-370-cool"
+        },
+        {
+          "id": "071249710432",
+          "name": "384 Neutral",
+          "hex": "#7F503B",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-384-neutral"
+        },
+        {
+          "id": "071249710470",
+          "name": "410 Cool",
+          "hex": "#67341E",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-410-cool"
+        },
+        {
+          "id": "071249710487",
+          "name": "420 Cool",
+          "hex": "#4D2919",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation-420-cool"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-cushion-foundation",
+        "retrievedAt": "2026-10-18T03:12:39.567Z",
+        "htmlSha256": "992506ffb51bd8d576b2b03e29a4d46169e61d6cdba67652c897691b0a65fdf8",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "foundation-3600524254056",
+      "category": "foundation",
+      "name": "Hyaluron Tinted Balm Foundation for Mature Skin with Buildable Light to Medium Coverage",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation",
+      "shades": [
+        {
+          "id": "3600524254056",
+          "name": "1 Very Light",
+          "hex": "#F7D7BE",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation"
+        },
+        {
+          "id": "3600524254063",
+          "name": "2 Rosy Light",
+          "hex": "#F3C7AE",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation-2-rosy-light"
+        },
+        {
+          "id": "3600524254070",
+          "name": "2.5 Neutral Light",
+          "hex": "#EFC5A1",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation-2-5-neutral-light"
+        },
+        {
+          "id": "3600524254087",
+          "name": "3 Light",
+          "hex": "#E6B991",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation-3-light"
+        },
+        {
+          "id": "3600524254094",
+          "name": "4 Medium Light",
+          "hex": "#E2AB82",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation-4-medium-light"
+        },
+        {
+          "id": "3600524254100",
+          "name": "5 Medium",
+          "hex": "#D09F81",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation-5-medium"
+        },
+        {
+          "id": "3600524254117",
+          "name": "6 Medium Tan",
+          "hex": "#DA9A6B",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation-6-medium-tan"
+        },
+        {
+          "id": "3600524254124",
+          "name": "7 Tan",
+          "hex": "#B57643",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation-7-tan"
+        },
+        {
+          "id": "3600524254131",
+          "name": "8 Tan Deep",
+          "hex": "#AD7051",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation-8-tan-deep"
+        },
+        {
+          "id": "3600524254148",
+          "name": "9 Deep",
+          "hex": "#955A3D",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation-9-deep"
+        },
+        {
+          "id": "3600524254155",
+          "name": "10 Neutral Deep",
+          "hex": "#834834",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation-10-neutral-deep"
+        },
+        {
+          "id": "3600524254162",
+          "name": "11 Very Deep",
+          "hex": "#683C2B",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation-11-very-deep"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-hyaluron-tinted-balm-foundation",
+        "retrievedAt": "2026-10-18T03:12:40.095Z",
+        "htmlSha256": "08dc876b4a4fe690c1026e856547cc31f19fa2b1b0ce36522a1557fcf193a112",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "foundation-071249700495",
+      "category": "foundation",
+      "name": "Skin Ink up to 48H Longwear 2-in-1 Foundation Concealer",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer",
+      "shades": [
+        {
+          "id": "071249700495",
+          "name": "80 Warm",
+          "hex": "#EFCDAE",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer"
+        },
+        {
+          "id": "071249700457",
+          "name": "15 Neutral",
+          "hex": "#F7DECD",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-15-neutral"
+        },
+        {
+          "id": "071249700464",
+          "name": "20 Neutral",
+          "hex": "#F6D9C2",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-20-neutral"
+        },
+        {
+          "id": "071249700471",
+          "name": "40 Warm",
+          "hex": "#F1D6BE",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-40-warm"
+        },
+        {
+          "id": "071249700501",
+          "name": "100 Warm",
+          "hex": "#E4BD9C",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-100-warm"
+        },
+        {
+          "id": "071249700518",
+          "name": "125 Warm",
+          "hex": "#E2B591",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-125-warm"
+        },
+        {
+          "id": "071249700488",
+          "name": "130 Cool",
+          "hex": "#E2B6A1",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-130-cool"
+        },
+        {
+          "id": "071249700525",
+          "name": "140 Warm",
+          "hex": "#E2B388",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-140-warm"
+        },
+        {
+          "id": "071249700532",
+          "name": "180 Cool",
+          "hex": "#E0A57D",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-180-cool"
+        },
+        {
+          "id": "071249700556",
+          "name": "265 Neutral",
+          "hex": "#D69A71",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-265-neutral"
+        },
+        {
+          "id": "071249700549",
+          "name": "270 Warm",
+          "hex": "#D49D70",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-270-warm"
+        },
+        {
+          "id": "071249700563",
+          "name": "290 Warm",
+          "hex": "#CF9967",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-290-warm"
+        },
+        {
+          "id": "071249700587",
+          "name": "318 Cool",
+          "hex": "#BA7F5B",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-318-cool"
+        },
+        {
+          "id": "071249700594",
+          "name": "325 Warm",
+          "hex": "#B5764E",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-325-warm"
+        },
+        {
+          "id": "071249700600",
+          "name": "375 Warm",
+          "hex": "#A56942",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-375-warm"
+        },
+        {
+          "id": "071249700624",
+          "name": "400 Cool",
+          "hex": "#934E33",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-400-cool"
+        },
+        {
+          "id": "071249700648",
+          "name": "420 Neutral",
+          "hex": "#81482C",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-420-neutral"
+        },
+        {
+          "id": "071249700655",
+          "name": "430 Cool",
+          "hex": "#773E2D",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-430-cool"
+        },
+        {
+          "id": "071249700631",
+          "name": "440 Neutral",
+          "hex": "#6F3D2B",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-440-neutral"
+        },
+        {
+          "id": "071249700679",
+          "name": "450 Cool",
+          "hex": "#6F3D2B",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-450-cool"
+        },
+        {
+          "id": "071249700662",
+          "name": "460 Neutral",
+          "hex": "#592C18",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-460-neutral"
+        },
+        {
+          "id": "071249700686",
+          "name": "465 Cool",
+          "hex": "#4A231D",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer-465-cool"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/infallible-skin-ink-2-in-1-foundation-concealer",
+        "retrievedAt": "2026-10-18T03:12:41.794Z",
+        "htmlSha256": "74287399c0ce6827cf43ee255a2a55175a1d92b43a121f476b4059902cb24a41",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "foundation-071249671870",
+      "category": "foundation",
+      "name": "True Match Super-Blendable Skincare Infused Foundation for Buildable Medium Coverage",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup",
+      "shades": [
+        {
+          "id": "071249671870",
+          "name": "N1, Light",
+          "hex": "#F5D4B9",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup"
+        },
+        {
+          "id": "071249671634",
+          "name": "C12, Deep",
+          "hex": "#280F11",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c12-dark-chocolate"
+        },
+        {
+          "id": "071249671597",
+          "name": "C11, Deep",
+          "hex": "#3E1915",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c11-coffee"
+        },
+        {
+          "id": "071249671672",
+          "name": "C10, Deep",
+          "hex": "#521F0A",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c10-espresso-cool"
+        },
+        {
+          "id": "071249671542",
+          "name": "N11, Deep",
+          "hex": "#4C270E",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n11-chocolate"
+        },
+        {
+          "id": "071249671771",
+          "name": "N10, Deep",
+          "hex": "#703912",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n10-milk-chocolate-neutral"
+        },
+        {
+          "id": "071249671764",
+          "name": "N9, Medium Deep",
+          "hex": "#894004",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n9-mahogany-neutral"
+        },
+        {
+          "id": "071249671665",
+          "name": "W9.5, Deep",
+          "hex": "#975627",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w95-deep-warm-warm"
+        },
+        {
+          "id": "071249671641",
+          "name": "C9, Deep",
+          "hex": "#823D16",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c9-deep-cool-cool"
+        },
+        {
+          "id": "071249671528",
+          "name": "N8, Medium Deep",
+          "hex": "#984A0B",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n8-cappuccino-neutral"
+        },
+        {
+          "id": "071249671580",
+          "name": "C8, Medium Deep",
+          "hex": "#8B4826",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c8-cocoa-cool"
+        },
+        {
+          "id": "071249671658",
+          "name": "W10, Deep",
+          "hex": "#763B05",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w10-deep-golden-warm"
+        },
+        {
+          "id": "071249671825",
+          "name": "C7, Medium Deep",
+          "hex": "#C1714B",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c7-nut-brown-cool"
+        },
+        {
+          "id": "071249671887",
+          "name": "C6, Medium",
+          "hex": "#B66637",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c6-soft-sable-cool"
+        },
+        {
+          "id": "071249671894",
+          "name": "W9, Medium Deep",
+          "hex": "#AC6B38",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w9-spiced-latte-warm"
+        },
+        {
+          "id": "071249671627",
+          "name": "W8, Medium Deep",
+          "hex": "#BD7546",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w8-creme-cafe-warm"
+        },
+        {
+          "id": "071249671719",
+          "name": "N6.5, Medium Deep",
+          "hex": "#D38045",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n65-golden-beige-neutral"
+        },
+        {
+          "id": "071249671726",
+          "name": "N6, Medium",
+          "hex": "#CF9163",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n6-honey-beige-neutral"
+        },
+        {
+          "id": "071249671917",
+          "name": "W5.5, Medium",
+          "hex": "#DC9566",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w55-suntan-warm"
+        },
+        {
+          "id": "071249671535",
+          "name": "W7, Medium Deep",
+          "hex": "#CF8E52",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w7-caramel-beige-warm"
+        },
+        {
+          "id": "071249671573",
+          "name": "N7, Medium Deep",
+          "hex": "#C68251",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n7-classic-tan-neutral"
+        },
+        {
+          "id": "071249671511",
+          "name": "N4, Light Medium",
+          "hex": "#E3AB8A",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n4-buff-beige-neutral"
+        },
+        {
+          "id": "071249671856",
+          "name": "W5, Medium",
+          "hex": "#EBB081",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w5-sand-beige-warm"
+        },
+        {
+          "id": "071249671863",
+          "name": "C4, Light Medium",
+          "hex": "#EBB094",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c4-shell-beige"
+        },
+        {
+          "id": "071249671696",
+          "name": "W4.5, Light Medium ",
+          "hex": "#E9A86E",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w45-fresh-beige-warm"
+        },
+        {
+          "id": "071249671832",
+          "name": "N5.5, Medium",
+          "hex": "#CF9463",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n55-perfect-beige-neutral"
+        },
+        {
+          "id": "071249671924",
+          "name": "N5, Medium",
+          "hex": "#DC9F79",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n5-true-beige-neutral"
+        },
+        {
+          "id": "071249671795",
+          "name": "N3, Light Medium",
+          "hex": "#EBBD97",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n3-natural-buff-neutral"
+        },
+        {
+          "id": "071249671900",
+          "name": "W6, Medium",
+          "hex": "#DB9973",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w6-sun-beige-warm"
+        },
+        {
+          "id": "071249671788",
+          "name": "W4, Light Medium",
+          "hex": "#E3B186",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w4-natural-beige-warm"
+        },
+        {
+          "id": "071249671610",
+          "name": "C3, Light Medium",
+          "hex": "#EBB6A2",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c3-creamy-natural"
+        },
+        {
+          "id": "071249671559",
+          "name": "C5, Medium",
+          "hex": "#DEA38F",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c5-classic-beige"
+        },
+        {
+          "id": "071249671740",
+          "name": "C2.5, Light Medium",
+          "hex": "#EDBAA3",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c25-ivory-beige-cool"
+        },
+        {
+          "id": "071249671818",
+          "name": "W3, Light Medium",
+          "hex": "#F0C0A0",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w3-nude-beige-warm"
+        },
+        {
+          "id": "071249671504",
+          "name": "C1.5, Light",
+          "hex": "#FACCBD",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-bone-c1-5"
+        },
+        {
+          "id": "071249671801",
+          "name": "C2, Light",
+          "hex": "#F7D4C4",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c2-natural-ivory"
+        },
+        {
+          "id": "071249671566",
+          "name": "N2, Light",
+          "hex": "#F5D4BB",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n2-classic-ivory-neutral"
+        },
+        {
+          "id": "071249671931",
+          "name": "W2.5, Light Medium",
+          "hex": "#F0CDAA",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w25-vanilla-warm"
+        },
+        {
+          "id": "071249671498",
+          "name": "C1, Light",
+          "hex": "#FCD4C4",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c1-alabaster-cool"
+        },
+        {
+          "id": "071249671702",
+          "name": "N0.5, Light",
+          "hex": "#FCE3CC",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-n05-fresh-ivory-neutral"
+        },
+        {
+          "id": "071249671689",
+          "name": "C0.5, Light",
+          "hex": "#FCDED1",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-c0-5-fair-ivory"
+        },
+        {
+          "id": "071249671757",
+          "name": "W2, Light",
+          "hex": "#F7D4B3",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w2-light-ivory-warm"
+        },
+        {
+          "id": "071249671849",
+          "name": "W1, Light",
+          "hex": "#FADEC7",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w1-porcelain-warm"
+        },
+        {
+          "id": "071249671603",
+          "name": "W0.5, Light",
+          "hex": "#FCE6D4",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w0-5-cream-ivory"
+        },
+        {
+          "id": "071249671948",
+          "name": "W6.5, Medium",
+          "hex": "#DEAC72",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w6-5-medium"
+        },
+        {
+          "id": "071249671962",
+          "name": "W10.5, Deep",
+          "hex": "#522B14",
+          "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup-w10-5-deep"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/foundation-makeup/true-match-super-blendable-makeup",
+        "retrievedAt": "2026-10-18T03:12:43.058Z",
+        "htmlSha256": "d0cf701ce7394dff50fc9aa4309805829130c0feb6e13d893ce81a7e916c6714",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "concealer-071249684764",
+      "category": "concealer",
+      "name": "Radiant Serum Concealer for Hydrating & Brightening Under Eyes",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer",
+      "shades": [
+        {
+          "id": "071249684764",
+          "name": "N11",
+          "hex": "#76482C",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer"
+        },
+        {
+          "id": "071249684771",
+          "name": "W10.5",
+          "hex": "#845E2F",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-w10-5"
+        },
+        {
+          "id": "071249684788",
+          "name": "C10",
+          "hex": "#8A5832",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-c10"
+        },
+        {
+          "id": "071249684795",
+          "name": "N10",
+          "hex": "#A46944",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-n10"
+        },
+        {
+          "id": "071249684801",
+          "name": "W9.5",
+          "hex": "#A56E45",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-w9-5"
+        },
+        {
+          "id": "071249684818",
+          "name": "N9",
+          "hex": "#A56331",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-n9"
+        },
+        {
+          "id": "071249684825",
+          "name": "C8",
+          "hex": "#C47E53",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-c8"
+        },
+        {
+          "id": "071249684832",
+          "name": "N8",
+          "hex": "#CF936B",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-n8"
+        },
+        {
+          "id": "071249684849",
+          "name": "C7",
+          "hex": "#D88C5E",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-c7"
+        },
+        {
+          "id": "071249684856",
+          "name": "W7",
+          "hex": "#F0B584",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-w7"
+        },
+        {
+          "id": "071249684863",
+          "name": "N6.5",
+          "hex": "#EABB9E",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-n6-5"
+        },
+        {
+          "id": "071249684870",
+          "name": "W6",
+          "hex": "#F1C39D",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-w6"
+        },
+        {
+          "id": "071249684887",
+          "name": "N5",
+          "hex": "#FFCFA3",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-n5"
+        },
+        {
+          "id": "071249684894",
+          "name": "W5",
+          "hex": "#F8CB9E",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-w5"
+        },
+        {
+          "id": "071249684900",
+          "name": "C4",
+          "hex": "#F5C9A5",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-c4"
+        },
+        {
+          "id": "071249684917",
+          "name": "W4",
+          "hex": "#F9D3AD",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-w4"
+        },
+        {
+          "id": "071249684924",
+          "name": "C3",
+          "hex": "#FFDBB3",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-c3"
+        },
+        {
+          "id": "071249684931",
+          "name": "N3",
+          "hex": "#FDDFC7",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-n3"
+        },
+        {
+          "id": "071249684948",
+          "name": "W3",
+          "hex": "#FFEDD9",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-w3"
+        },
+        {
+          "id": "071249684955",
+          "name": "C2",
+          "hex": "#FEE6CE",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-c2"
+        },
+        {
+          "id": "071249684962",
+          "name": "N2",
+          "hex": "#FFE2CD",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-n2"
+        },
+        {
+          "id": "071249684993",
+          "name": "W1",
+          "hex": "#FFEAD9",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-w1"
+        },
+        {
+          "id": "071249684979",
+          "name": "C1",
+          "hex": "#FFEDD9",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-c1"
+        },
+        {
+          "id": "071249684986",
+          "name": "N1",
+          "hex": "#FFEAD9",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer-n1"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-radiant-serum-concealer",
+        "retrievedAt": "2026-10-18T03:12:46.651Z",
+        "htmlSha256": "b1b9b6877f8c1f8d657acf198fc1593f6cc403fa1add86385ac49c5b3b750ee7",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "concealer-071249382394",
+      "category": "concealer",
+      "name": "Full Wear Concealer for Up to 24H Matte Full Coverage",
+      "finish": "matte",
+      "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage",
+      "shades": [
+        {
+          "id": "071249382394",
+          "name": "Porcelain",
+          "hex": "#FFF0EB",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage"
+        },
+        {
+          "id": "071249384787",
+          "name": "Espresso",
+          "hex": "#552911",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-445-espresso"
+        },
+        {
+          "id": "071249384770",
+          "name": "Truffle",
+          "hex": "#59330A",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-440-truffle"
+        },
+        {
+          "id": "071249384763",
+          "name": "Coffee",
+          "hex": "#6E3814",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-435-coffee"
+        },
+        {
+          "id": "071249384756",
+          "name": "Mocha",
+          "hex": "#63401C",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-430-mocha"
+        },
+        {
+          "id": "071249384749",
+          "name": "Chestnut",
+          "hex": "#7D4B1B",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-425-chestnut"
+        },
+        {
+          "id": "071249384732",
+          "name": "Cocoa",
+          "hex": "#945414",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-420-cocoa"
+        },
+        {
+          "id": "071249384725",
+          "name": "Honey",
+          "hex": "#B37D40",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-415-honey"
+        },
+        {
+          "id": "071249382561",
+          "name": "Almond",
+          "hex": "#D19661",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-410-almond"
+        },
+        {
+          "id": "071249382554",
+          "name": "Toffee",
+          "hex": "#C98A57",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-405-toffee"
+        },
+        {
+          "id": "071249382547",
+          "name": "Caramel",
+          "hex": "#D18C61",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-400-caramel"
+        },
+        {
+          "id": "071249382530",
+          "name": "Walnut",
+          "hex": "#D49673",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-395-walnut"
+        },
+        {
+          "id": "071249382523",
+          "name": "Cedar",
+          "hex": "#D49E70",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-390-cedar"
+        },
+        {
+          "id": "071249382516",
+          "name": "Amber",
+          "hex": "#DEA373",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-385-amber"
+        },
+        {
+          "id": "071249382509",
+          "name": "Pecan",
+          "hex": "#EDBB95",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-380-pecan"
+        },
+        {
+          "id": "071249382493",
+          "name": "Latte",
+          "hex": "#E1AF84",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-375-latte"
+        },
+        {
+          "id": "071249382486",
+          "name": "Biscuit",
+          "hex": "#E6B094",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-370-biscuit"
+        },
+        {
+          "id": "071249382479",
+          "name": "Cashew",
+          "hex": "#E0B08C",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-cashew-365"
+        },
+        {
+          "id": "071249382462",
+          "name": "Cashmere",
+          "hex": "#F5CFB0",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-360-cashmere"
+        },
+        {
+          "id": "071249382455",
+          "name": "Vanilla",
+          "hex": "#F7DBC4",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-355-vanilla"
+        },
+        {
+          "id": "071249382448",
+          "name": "Bisque",
+          "hex": "#F5D1BF",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-350-bisque"
+        },
+        {
+          "id": "071249382431",
+          "name": "Oatmeal",
+          "hex": "#FCDECC",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-345-oatmeal"
+        },
+        {
+          "id": "071249382424",
+          "name": "Fawn",
+          "hex": "#FADCCF",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-340-fawn"
+        },
+        {
+          "id": "071249382417",
+          "name": "Ivory",
+          "hex": "#F5E1CF",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-330-ivory"
+        },
+        {
+          "id": "071249382400",
+          "name": "Eggshell",
+          "hex": "#FAEBDE",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage-325-eggshell"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/concealer/infallible-full-wear-concealer-waterproof-full-coverage",
+        "retrievedAt": "2026-10-18T03:12:48.966Z",
+        "htmlSha256": "a0cf2fb09fd6c3a3938095782b4a6bbad83b3ffc57a2b9ce6491a04415c7868a",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "concealer-071249238424",
+      "category": "concealer",
+      "name": "Super-Blendable Crayon Concealer",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-super-blendable-crayon-concealer",
+      "shades": [
+        {
+          "id": "071249238424",
+          "name": "Fair/Light N1-2-3",
+          "hex": "#E7AF8E",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-super-blendable-crayon-concealer"
+        },
+        {
+          "id": "071249248805",
+          "name": "Medium/Deep N6-7-8",
+          "hex": "#B57857",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-super-blendable-crayon-concealer-medium-deep-n6-7-8"
+        },
+        {
+          "id": "071249238486",
+          "name": "Medium/Deep W6-7-8",
+          "hex": "#E19968",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-super-blendable-crayon-concealer-medium-deep-w6-7-8"
+        },
+        {
+          "id": "071249238455",
+          "name": "Light/Medium N4-5",
+          "hex": "#DB9D7E",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-super-blendable-crayon-concealer-light-medium-n4-5"
+        },
+        {
+          "id": "071249238462",
+          "name": "Light/Medium W4-5",
+          "hex": "#E0A37C",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-super-blendable-crayon-concealer-light-medium-w4-5"
+        },
+        {
+          "id": "071249238431",
+          "name": "Fair/Light W1-2-3",
+          "hex": "#FDC797",
+          "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-super-blendable-crayon-concealer-fair-light-w1-2-3"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/concealer/true-match-super-blendable-crayon-concealer",
+        "retrievedAt": "2026-10-18T03:12:49.526Z",
+        "htmlSha256": "0172a7df7654e5dd13e7b6fa71ca09c19833a7ba76d0e2ab0767adcbbb7dceef",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "blush-3600524254179",
+      "category": "blush",
+      "name": "Hyaluron Tinted Balm Embellisher, Blush & Highlighter Hybrid for Mature Skin",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-hyaluron-tinted-balm-embellisher",
+      "shades": [
+        {
+          "id": "3600524254179",
+          "name": "3 Rose Lumi&#232;re",
+          "hex": "#DC8589",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-hyaluron-tinted-balm-embellisher"
+        },
+        {
+          "id": "3600524254209",
+          "name": "1 Amber Dor&#233;e",
+          "hex": "#D4916C",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-hyaluron-tinted-balm-embellisher-1-amber-doree"
+        },
+        {
+          "id": "3600524254186",
+          "name": "2 P&#234;che Eclat",
+          "hex": "#EF867F",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-hyaluron-tinted-balm-embellisher-2-peche-eclat"
+        },
+        {
+          "id": "3600524265120",
+          "name": "4 Cherry Intense",
+          "hex": "#A62A28",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-hyaluron-tinted-balm-embellisher-4-cherry-intense"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-hyaluron-tinted-balm-embellisher",
+        "retrievedAt": "2026-10-18T03:12:50.413Z",
+        "htmlSha256": "cfff8cb6cfab43c42f3d65f86446c81fb91c4896eae6029e01654750fae2174c",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "blush-071249690581",
+      "category": "blush",
+      "name": "Le Liquid Blush for a Glowy or Dewy Finish",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-lumi-glow-blush",
+      "shades": [
+        {
+          "id": "071249690581",
+          "name": "601 Dewy Worth It",
+          "hex": "#E48174",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-lumi-glow-blush"
+        },
+        {
+          "id": "071249690598",
+          "name": "605 Dewy Bright Pink",
+          "hex": "#F27180",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-lumi-glow-blush-605-dewy-bright-pink"
+        },
+        {
+          "id": "071249690604",
+          "name": "610 Dewy Rich Coral",
+          "hex": "#F0725D",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-lumi-glow-blush-610-dewy-rich-coral"
+        },
+        {
+          "id": "071249690611",
+          "name": "625 Glowy Gold Pink",
+          "hex": "#EE686D",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-lumi-glow-blush-625-dewy-gold-pink"
+        },
+        {
+          "id": "071249690628",
+          "name": "630 Glowy Gold True Rose",
+          "hex": "#CC696F",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-lumi-glow-blush-630-dewy-gold-true-rose"
+        },
+        {
+          "id": "071249690635",
+          "name": "635 Glowy Worth It Medium",
+          "hex": "#AC4853",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-lumi-glow-blush-635-dewy-worth-it-medium"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-lumi-glow-blush",
+        "retrievedAt": "2026-10-18T03:12:50.848Z",
+        "htmlSha256": "cbff1aae85bed759d6fcfcf5f5d212bc2f068819fe3bfa898ca07f0acb9280a1",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "blush-071249674673",
+      "category": "blush",
+      "name": "Up to 24H Fresh Wear Soft Matte Blush",
+      "finish": "matte",
+      "url": "https://www.lorealparisusa.com/makeup/face/blush/infallible-fresh-wear-blush",
+      "shades": [
+        {
+          "id": "071249674673",
+          "name": "Confident Pink",
+          "hex": "#FF59BF",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/infallible-fresh-wear-blush"
+        },
+        {
+          "id": "071249674697",
+          "name": "Daring Rosewood",
+          "hex": "#B95F7D",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/infallible-fresh-wear-blush-daring-rosewood"
+        },
+        {
+          "id": "071249674666",
+          "name": "Fearless Coral",
+          "hex": "#FF5994",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/infallible-fresh-wear-blush-fearless-coral"
+        },
+        {
+          "id": "071249674680",
+          "name": "Legendary Berry",
+          "hex": "#C24A9E",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/infallible-fresh-wear-blush-legendary-berry"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/blush/infallible-fresh-wear-blush",
+        "retrievedAt": "2026-10-18T03:12:51.331Z",
+        "htmlSha256": "11b599fd6aef6a7ecc2100bc1ea48e7f040cdb51ec1e32b5270002047d6b90ed",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "blush-071249041840",
+      "category": "blush",
+      "name": "Blush",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush",
+      "shades": [
+        {
+          "id": "071249041840",
+          "name": "Sweet Ginger N7-8",
+          "hex": "#B97E59",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush"
+        },
+        {
+          "id": "071249042014",
+          "name": "Spiced Plum C7-8",
+          "hex": "#9D6059",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush-spiced-plum-c7-8"
+        },
+        {
+          "id": "071249017524",
+          "name": "Rosy Outlook C5-6",
+          "hex": "#AD7466",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush-rosy-outlook-c5-6"
+        },
+        {
+          "id": "071249017494",
+          "name": "Apricot Kiss N5-6",
+          "hex": "#AF725C",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush-n5-6"
+        },
+        {
+          "id": "071249017463",
+          "name": "Subtle Sable W5-6",
+          "hex": "#CC8970",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush-subtle-sable-w5-6"
+        },
+        {
+          "id": "071249017487",
+          "name": "Innocent Flush N3-4",
+          "hex": "#BE8870",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush-innocent-flush-n3-4"
+        },
+        {
+          "id": "071249017517",
+          "name": "Tender Rose C3-4",
+          "hex": "#C0877A",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush-tender-rose-c3-4"
+        },
+        {
+          "id": "071249017456",
+          "name": "Barely Blushing W3-4",
+          "hex": "#E3997F",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush-barely-blushing-w3-4"
+        },
+        {
+          "id": "071249017500",
+          "name": "Baby Blossom C1-2",
+          "hex": "#D8A9A5",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush-baby-blossom-c1-2"
+        },
+        {
+          "id": "071249017449",
+          "name": "Bare Honey W1-2",
+          "hex": "#F2B596",
+          "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush-bare-honey-w1-2"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/blush/true-match-blush",
+        "retrievedAt": "2026-10-18T03:12:51.755Z",
+        "htmlSha256": "8191984c71a5ca9c2c91071112e0f98ce98e8c6e43365caec6a9002547dc8f19",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "bronzer-071249705674",
+      "category": "bronzer",
+      "name": "Lumi Bronze Le Stick Soleil Face Bronzing Stick",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/bronzer/lumi-bronze-le-stick-soleil",
+      "shades": [
+        {
+          "id": "071249705674",
+          "name": "100 Sunkissed Ros&#233;",
+          "hex": "#E88D7F",
+          "url": "https://www.lorealparisusa.com/makeup/face/bronzer/lumi-bronze-le-stick-soleil"
+        },
+        {
+          "id": "071249705681",
+          "name": "110 Toasted Sunlight",
+          "hex": "#AD583F",
+          "url": "https://www.lorealparisusa.com/makeup/face/bronzer/lumi-bronze-le-stick-soleil-toasted-sunlight-110"
+        },
+        {
+          "id": "071249705698",
+          "name": "120 Copper Bronzette",
+          "hex": "#9C663C",
+          "url": "https://www.lorealparisusa.com/makeup/face/bronzer/lumi-bronze-le-stick-soleil-copper-bronzette-120"
+        },
+        {
+          "id": "071249705704",
+          "name": "130 Sunset Dor&#233;",
+          "hex": "#7C5037",
+          "url": "https://www.lorealparisusa.com/makeup/face/bronzer/lumi-bronze-le-stick-soleil-sunset-dore-130"
+        },
+        {
+          "id": "071249705711",
+          "name": "140 Bronze De Soleil",
+          "hex": "#6B3C29",
+          "url": "https://www.lorealparisusa.com/makeup/face/bronzer/lumi-bronze-le-stick-soleil-bronze-de-soleil-140"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/bronzer/lumi-bronze-le-stick-soleil",
+        "retrievedAt": "2026-10-18T03:12:52.690Z",
+        "htmlSha256": "bf7e7ccad604817b7f4a0f593f8ac858a4fb856878f415c2bb4cae372af9df8d",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "bronzer-071249664223",
+      "category": "bronzer",
+      "name": "Up to 24H Fresh Wear Soft Matte Bronzer",
+      "finish": "matte",
+      "url": "https://www.lorealparisusa.com/makeup/face/bronzer/infallible-up-to-24h-fresh-wear-soft-matte-bronzer",
+      "shades": [
+        {
+          "id": "071249664223",
+          "name": "Deep Dark",
+          "hex": "#592123",
+          "url": "https://www.lorealparisusa.com/makeup/face/bronzer/infallible-up-to-24h-fresh-wear-soft-matte-bronzer"
+        },
+        {
+          "id": "71249664209",
+          "name": "Deep Tan",
+          "hex": "#AD5C2E",
+          "url": "https://www.lorealparisusa.com/makeup/face/bronzer/infallible-up-to-24h-fresh-wear-soft-matte-bronzer-deep-tan"
+        },
+        {
+          "id": "71249664193",
+          "name": "Tan",
+          "hex": "#A2612D",
+          "url": "https://www.lorealparisusa.com/makeup/face/bronzer/infallible-up-to-24h-fresh-wear-soft-matte-bronzer-tan"
+        },
+        {
+          "id": "071249664186",
+          "name": "Medium",
+          "hex": "#AC6E46",
+          "url": "https://www.lorealparisusa.com/makeup/face/bronzer/infallible-up-to-24h-fresh-wear-soft-matte-bronzer-medium"
+        },
+        {
+          "id": "71249664179",
+          "name": "Light Medium",
+          "hex": "#C37A55",
+          "url": "https://www.lorealparisusa.com/makeup/face/bronzer/infallible-up-to-24h-fresh-wear-soft-matte-bronzer-light-medium"
+        },
+        {
+          "id": "071249664162",
+          "name": "Light",
+          "hex": "#DE9B73",
+          "url": "https://www.lorealparisusa.com/makeup/face/bronzer/infallible-up-to-24h-fresh-wear-soft-matte-bronzer-light"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/bronzer/infallible-up-to-24h-fresh-wear-soft-matte-bronzer",
+        "retrievedAt": "2026-10-18T03:12:53.112Z",
+        "htmlSha256": "87e460fc934fc6b29df4a5b2f732e31c4c6f90a85820731aa187fd48268a4802",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "highlighter-071249363126",
+      "category": "highlighter",
+      "name": "True Match Lumi Glotion Natural Glow Enhancer & Tinted Moisturizer",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/highlighters/true-match-lumi-glotion-natural-glow-enhancer",
+      "shades": [
+        {
+          "id": "071249363126",
+          "name": "Medium",
+          "hex": "#EBA682",
+          "url": "https://www.lorealparisusa.com/makeup/face/highlighters/true-match-lumi-glotion-natural-glow-enhancer"
+        },
+        {
+          "id": "071249692455",
+          "name": "XL Light",
+          "hex": "#DEA68C",
+          "url": "https://www.lorealparisusa.com/makeup/face/highlighters/true-match-lumi-glotion-natural-glow-enhancer-light-3-3-oz"
+        },
+        {
+          "id": "071249692462",
+          "name": "XL Medium",
+          "hex": "#EBA682",
+          "url": "https://www.lorealparisusa.com/makeup/face/highlighters/true-match-lumi-glotion-natural-glow-enhancer-medium-3-3-oz"
+        },
+        {
+          "id": "071249692479",
+          "name": "XL Deep",
+          "hex": "#96602A",
+          "url": "https://www.lorealparisusa.com/makeup/face/highlighters/true-match-lumi-glotion-natural-glow-enhancer-deep-3-3-oz"
+        },
+        {
+          "id": "071249363133",
+          "name": "Deep",
+          "hex": "#96602A",
+          "url": "https://www.lorealparisusa.com/makeup/face/highlighters/true-match-lumi-glotion-natural-glow-enhancer-deep"
+        },
+        {
+          "id": "071249363119",
+          "name": "Light",
+          "hex": "#DEA68C",
+          "url": "https://www.lorealparisusa.com/makeup/face/highlighters/true-match-lumi-glotion-natural-glow-enhancer-light"
+        },
+        {
+          "id": "071249363102",
+          "name": "Fair",
+          "hex": "#FAD9CC",
+          "url": "https://www.lorealparisusa.com/makeup/face/highlighters/true-match-lumi-glotion-natural-glow-enhancer-fair"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/highlighters/true-match-lumi-glotion-natural-glow-enhancer",
+        "retrievedAt": "2026-10-18T03:12:55.226Z",
+        "htmlSha256": "3218b35f201235ef9548e51784695cd4a9a1632b8eab917ffcc5177a8186539a",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "highlighter-071249693476",
+      "category": "highlighter",
+      "name": "Le Glass Highlighter Stick for Glass Skin or a Luminous Glow",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/highlighters/lumi-le-glass-highlighter-stick",
+      "shades": [
+        {
+          "id": "071249693476",
+          "name": "640 Glowy Sparkling Rose",
+          "hex": "#E1C9C5",
+          "url": "https://www.lorealparisusa.com/makeup/face/highlighters/lumi-le-glass-highlighter-stick-640-glowy-sparkling-rose"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/highlighters/lumi-le-glass-highlighter-stick",
+        "retrievedAt": "2026-10-18T03:12:56.429Z",
+        "htmlSha256": "b36c86778fe27d5b7a7d5092d5c186306f1099280179ffe7a0ba38a2c095f602",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "highlighter-071249684726",
+      "category": "highlighter",
+      "name": "Up to 24HR Highlighter Longwear Powder",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/face/highlighters/infallible-highlighter",
+      "shades": [
+        {
+          "id": "071249684726",
+          "name": "15 Champagne Rose Gold Glow",
+          "hex": "#F1D0BD",
+          "url": "https://www.lorealparisusa.com/makeup/face/highlighters/infallible-highlighter"
+        },
+        {
+          "id": "071249684733",
+          "name": "05 Icy Gold",
+          "hex": "#FFECD6",
+          "url": "https://www.lorealparisusa.com/makeup/face/highlighters/infallible-highlighter-05-icy-gold"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/face/highlighters/infallible-highlighter",
+        "retrievedAt": "2026-10-18T03:12:56.878Z",
+        "htmlSha256": "465b46ae87a3ca12a3279cacb355c17b39d0010a4c5282560de0e45716ecc8ba",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "eyeshadow-071249689325",
+      "category": "eyeshadow",
+      "name": "Le Shadow Stick Shimmer Eyeshadow for Rich, Creamy Color",
+      "finish": "shimmer",
+      "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick",
+      "shades": [
+        {
+          "id": "071249689325",
+          "name": "115 Twinkly Rose",
+          "hex": "#EDC3AD",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick"
+        },
+        {
+          "id": "071249689394",
+          "name": "100 Ice Sparkle",
+          "hex": "#E0DDDA",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-100-ice-sparkle"
+        },
+        {
+          "id": "071249689349",
+          "name": "120 Magnetic Mauve",
+          "hex": "#BE898A",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-120-magnetic-mauve"
+        },
+        {
+          "id": "071249689356",
+          "name": "230 Magnetic Bronze",
+          "hex": "#9B6B4B",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-230-magnetic-bronze"
+        },
+        {
+          "id": "071249689363",
+          "name": "240 Brown Abyss",
+          "hex": "#7D5445",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-240-brown-abyss"
+        },
+        {
+          "id": "071249689370",
+          "name": "245 Alluring Rose",
+          "hex": "#CEA08B",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-245-alluring-rose"
+        },
+        {
+          "id": "071249689387",
+          "name": "420 Brown Bliss",
+          "hex": "#734F44",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-420-brown-bliss"
+        },
+        {
+          "id": "071249689332",
+          "name": "118 Cloudy Rose",
+          "hex": "#DD7579",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-118-cloudy-rose"
+        },
+        {
+          "id": "071249701980",
+          "name": "250 Celestial Taupe",
+          "hex": "#705D56",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-250-celestial-taupe"
+        },
+        {
+          "id": "071249700242",
+          "name": "490 All Night Black",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-490-all-night-black"
+        },
+        {
+          "id": "071249700259",
+          "name": "270 Twilight Emerald",
+          "hex": "#1F3027",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-270-twilight-emerald"
+        },
+        {
+          "id": "071249700266",
+          "name": "290 Midnight Noir",
+          "hex": "#1B1F21",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-290-midnight-noir"
+        },
+        {
+          "id": "071249700273",
+          "name": "125 Starry Bordeaux",
+          "hex": "#451012",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-125-starry-bordeaux"
+        },
+        {
+          "id": "071249700280",
+          "name": "280 Moonlit M&#233;tal",
+          "hex": "#514E52",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-280-moonlit-metal"
+        },
+        {
+          "id": "071249709856",
+          "name": "Peach Lights",
+          "hex": "#EEBB94",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-010-peach-lights"
+        },
+        {
+          "id": "071249709870",
+          "name": "Nude Lights",
+          "hex": "#E8C7B1",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick-030-nude-lights"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/paradise-le-shadow-stick",
+        "retrievedAt": "2026-10-18T03:12:58.487Z",
+        "htmlSha256": "bce2d055393324e7dbebdfb89bf3c5e88728b47d7ba3f078e578cf510dba257d",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "eyeshadow-071249352137",
+      "category": "eyeshadow",
+      "name": "Metallics Eye Shadow",
+      "finish": "shimmer",
+      "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-paints-metallics-eye-shadow",
+      "shades": [
+        {
+          "id": "071249352137",
+          "name": "400 Rose Chrome",
+          "hex": "#E09191",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-paints-metallics-eye-shadow"
+        },
+        {
+          "id": "071249352113",
+          "name": "402 Brass Knuckles",
+          "hex": "#956760",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-paints-metallics-eye-shadow-402-brass-knuckles"
+        },
+        {
+          "id": "071249352106",
+          "name": "404 Caged",
+          "hex": "#554232",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-paints-metallics-eye-shadow-404-caged"
+        },
+        {
+          "id": "071249352144",
+          "name": "406 Violet Luster",
+          "hex": "#AB63CF",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-paints-metallics-eye-shadow-406-violet-luster"
+        },
+        {
+          "id": "071249352120",
+          "name": "408 Aluminum Foil",
+          "hex": "#A4A7A7",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-paints-metallics-eye-shadow-408-aluminum-foil"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-paints-metallics-eye-shadow",
+        "retrievedAt": "2026-10-18T03:12:59.014Z",
+        "htmlSha256": "90c2d616624a37755522095256d6394517f03998ea55f2964c5f9de06526be8f",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "eyeshadow-071249266502",
+      "category": "eyeshadow",
+      "name": "24 HR Eye Shadow",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow",
+      "shades": [
+        {
+          "id": "071249266502",
+          "name": "Always Pearly Pink",
+          "hex": "#F3E3E6",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow"
+        },
+        {
+          "id": "071249214633",
+          "name": "Bottomless Java",
+          "hex": "#552D1D",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-bottomless-java"
+        },
+        {
+          "id": "071249266533",
+          "name": "Burst into Bloom",
+          "hex": "#81265B",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-burst-into-bloom"
+        },
+        {
+          "id": "071249199237",
+          "name": "Endless Pearl",
+          "hex": "#F6D1BB",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-endless-pearl"
+        },
+        {
+          "id": "071249214619",
+          "name": "Endless Sea",
+          "hex": "#36A5AE",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-endless-sea"
+        },
+        {
+          "id": "071249199251",
+          "name": "Eternal Black",
+          "hex": "#0F2132",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-eternal-black"
+        },
+        {
+          "id": "071249266496",
+          "name": "Gilded Envy",
+          "hex": "#86785F",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-gilded-envy"
+        },
+        {
+          "id": "071249214626",
+          "name": "Glistening Garnet",
+          "hex": "#88316E",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-glistening-garnet"
+        },
+        {
+          "id": "071249214596",
+          "name": "Liquid Diamond",
+          "hex": "#8B8790",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-liquid-diamond"
+        },
+        {
+          "id": "071249199220",
+          "name": "Midnight Blue",
+          "hex": "#0D2B5B",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-midnight-blue"
+        },
+        {
+          "id": "071249199299",
+          "name": "Perpetual Purple",
+          "hex": "#5F4C89",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-perpetual-purple"
+        },
+        {
+          "id": "071249266526",
+          "name": "Purple Priority",
+          "hex": "#4A356F",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-purple-priority"
+        },
+        {
+          "id": "071249266519",
+          "name": "Silver Sky",
+          "hex": "#C8CCCE",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-silver-sky"
+        },
+        {
+          "id": "071249214640",
+          "name": "Smoldering Plum",
+          "hex": "#562D56",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-smoldering-plum"
+        },
+        {
+          "id": "071249199275",
+          "name": "Sultry Smoke",
+          "hex": "#677082",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-sultry-smoke"
+        },
+        {
+          "id": "071249266540",
+          "name": "Timeless Blue Spark",
+          "hex": "#4A85A5",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow-timeless-blue-spark"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow",
+        "retrievedAt": "2026-10-18T03:12:59.659Z",
+        "htmlSha256": "64658a4fa2b2cce8f17ab3f6848c7fe3bdbb8e1fda9772758639e5f75ba7ade5",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "eyeshadow-071249306932",
+      "category": "eyeshadow",
+      "name": "Monos Eyeshadow",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/colour-riche-eyeshadow",
+      "shades": [
+        {
+          "id": "071249306932",
+          "name": "Sunset Seine (Shimmer)",
+          "hex": "#FF8C47",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/colour-riche-eyeshadow"
+        },
+        {
+          "id": "071249307076",
+          "name": "Green Promenade (Shimmer)",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/colour-riche-eyeshadow-green-promenade"
+        },
+        {
+          "id": "071249307069",
+          "name": "Meet Me in Paris (Matte)",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/colour-riche-eyeshadow-meet-me-in-paris"
+        },
+        {
+          "id": "071249307083",
+          "name": "Teal Couture (Shimmer)",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/colour-riche-eyeshadow-teal-couture"
+        },
+        {
+          "id": "071249307021",
+          "name": "Violet Beaute (Shimmer)",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/colour-riche-eyeshadow-violet-beaute"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/eye-shadow/colour-riche-eyeshadow",
+        "retrievedAt": "2026-10-18T03:13:00.167Z",
+        "htmlSha256": "df4a28ae1408d754d23788b2e7b28ce406a1617c8396401e4df96fdf5a1c73aa",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "eyeliner-071249703601",
+      "category": "eyeliner",
+      "name": "Haute Couleur Kohl Pencil Eyeliner for Smooth and Buidlable Application",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-couleur-kohl-pencil-eyeliner",
+      "shades": [
+        {
+          "id": "071249703601",
+          "name": "110 Black Silk",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-couleur-kohl-pencil-eyeliner"
+        },
+        {
+          "id": "071249703618",
+          "name": "120 Brown Leather",
+          "hex": "#473029",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-couleur-kohl-pencil-eyeliner-brown-leather-120"
+        },
+        {
+          "id": "071249703632",
+          "name": "130 Blue Suede",
+          "hex": "#222E4E",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-couleur-kohl-pencil-eyeliner-blue-suede-130"
+        },
+        {
+          "id": "071249703656",
+          "name": "150 Burgundy Cashmere",
+          "hex": "#5E3037",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-couleur-kohl-pencil-eyeliner-burgundy-cashmere-150"
+        },
+        {
+          "id": "071249703700",
+          "name": "160 Bronze Chiffon",
+          "hex": "#83584C",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-couleur-kohl-pencil-eyeliner-bronze-chiffon-160"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-couleur-kohl-pencil-eyeliner",
+        "retrievedAt": "2026-10-18T03:13:01.106Z",
+        "htmlSha256": "7857d11eb9477b834914ae2cf637f30621f1f7624f2b05f4c4e40e1dc4fb68b2",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "eyeliner-071249705551",
+      "category": "eyeliner",
+      "name": "Haute Precision Waterproof Liquid Eyeliner for Ultra-Precise Application",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-precision-liquid-eyeliner",
+      "shades": [
+        {
+          "id": "071249705551",
+          "name": "010 Black Silk",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-precision-liquid-eyeliner"
+        },
+        {
+          "id": "071249705568",
+          "name": "020 Brown Leather",
+          "hex": "#473029",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-precision-liquid-eyeliner-brown-leather-020"
+        },
+        {
+          "id": "071249705575",
+          "name": "030 Blue Suede",
+          "hex": "#222E4E",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-precision-liquid-eyeliner-blue-suede-030"
+        },
+        {
+          "id": "071249705582",
+          "name": "040 Green Velvet",
+          "hex": "#374439",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-precision-liquid-eyeliner-green-velvet-040"
+        },
+        {
+          "id": "071249705599",
+          "name": "050 Burgundy Cashmere",
+          "hex": "#5E3037",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-precision-liquid-eyeliner-burgundy-cashmere-050"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/haute-precision-liquid-eyeliner",
+        "retrievedAt": "2026-10-18T03:13:01.625Z",
+        "htmlSha256": "d44d66500f72767e3b3753233aa083cb4b5b94bc02afb96c7ed496770d3540c9",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "eyeliner-071249663615",
+      "category": "eyeliner",
+      "name": "Grip Mechanical Gel Eyeliner Pencil for Waterproof & Smudge-Resistant Wear",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/grip-mechanical-gel-makeup-eyeliner",
+      "shades": [
+        {
+          "id": "071249663615",
+          "name": "Brown Denim",
+          "hex": "#492C3A",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/grip-mechanical-gel-makeup-eyeliner"
+        },
+        {
+          "id": "071249663639",
+          "name": "Turquoise",
+          "hex": "#0095A2",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/grip-mechanical-gel-makeup-eyeliner-turquoise"
+        },
+        {
+          "id": "071249663660",
+          "name": "Emerald Green",
+          "hex": "#08BA54",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/grip-mechanical-gel-makeup-eyeliner-emerald-green"
+        },
+        {
+          "id": "071249663622",
+          "name": "Taupe Grey",
+          "hex": "#394948",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/grip-mechanical-gel-makeup-eyeliner-taupe-grey"
+        },
+        {
+          "id": "071249663653",
+          "name": "Blue Jersey",
+          "hex": "#003784",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/grip-mechanical-gel-makeup-eyeliner-blue-jersey"
+        },
+        {
+          "id": "071249663646",
+          "name": "Intense Black",
+          "hex": "#010203",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/grip-mechanical-gel-makeup-eyeliner-intense-black"
+        },
+        {
+          "id": "071249681503",
+          "name": "White",
+          "hex": "#FFFFFF",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/grip-mechanical-gel-makeup-eyeliner-white"
+        },
+        {
+          "id": "071249681510",
+          "name": "Nude",
+          "hex": "#E3BC9A",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/grip-mechanical-gel-makeup-eyeliner-nude"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/grip-mechanical-gel-makeup-eyeliner",
+        "retrievedAt": "2026-10-18T03:13:02.073Z",
+        "htmlSha256": "4b2c972bf12cf58fb725bf5626f042a190456b49be866f8ff8553d9d85b47b07",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "eyeliner-071249357248",
+      "category": "eyeliner",
+      "name": "Pro-Last Waterproof, Up to 24HR Pencil Eyeliner",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner",
+      "shades": [
+        {
+          "id": "071249357248",
+          "name": "Black",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner"
+        },
+        {
+          "id": "071249385937",
+          "name": "Aubergine",
+          "hex": "#6B545F",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-aubergine"
+        },
+        {
+          "id": "071249385104",
+          "name": "Bronze",
+          "hex": "#815A54",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-bronze"
+        },
+        {
+          "id": "071249357255",
+          "name": "Brown",
+          "hex": "#29242B",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-brown"
+        },
+        {
+          "id": "071249385098",
+          "name": "Burgundy",
+          "hex": "#800020",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-burgundy"
+        },
+        {
+          "id": "071249385197",
+          "name": "Charcoal Shimmer",
+          "hex": "#2E2B2B",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-charcoal-shimmer"
+        },
+        {
+          "id": "071249357644",
+          "name": "Cobalt Blue",
+          "hex": "#1257FF",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-cobalt-blue"
+        },
+        {
+          "id": "071249373941",
+          "name": "Forest Green",
+          "hex": "#002F34",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-forest-green"
+        },
+        {
+          "id": "071249385173",
+          "name": "Gold",
+          "hex": "#F1DC8C",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-gold"
+        },
+        {
+          "id": "071249357262",
+          "name": "Grey",
+          "hex": "#2E3F4A",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-grey"
+        },
+        {
+          "id": "071249385944",
+          "name": "Ivy",
+          "hex": "#69574A",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-ivy"
+        },
+        {
+          "id": "071249357668",
+          "name": "Nude",
+          "hex": "#D19C86",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-nude"
+        },
+        {
+          "id": "071249357651",
+          "name": "Purple",
+          "hex": "#614DFF",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-purple"
+        },
+        {
+          "id": "071249385180",
+          "name": "Silver",
+          "hex": "#BEBDBB",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner-silver"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/eyeliner/infallible-pro-last-waterproof-pencil-eyeliner",
+        "retrievedAt": "2026-10-18T03:13:02.619Z",
+        "htmlSha256": "073029f8c8c87388a8ef4376d533df9805d22f8b3d9ade41befdc7533f960fae",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "brow-071249699911",
+      "category": "brow",
+      "name": "Hair-Like Brow Filling Pen for Sparse Brows",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/eye/eyebrow/faux-brow",
+      "shades": [
+        {
+          "id": "071249699911",
+          "name": "DARK BRUNETTE 390",
+          "hex": "#3B190E",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyebrow/faux-brow"
+        },
+        {
+          "id": "071249699850",
+          "name": "BLONDE 388",
+          "hex": "#9E6E51",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyebrow/faux-brow-blonde"
+        },
+        {
+          "id": "071249699867",
+          "name": "AUBURN 384",
+          "hex": "#AB5F44",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyebrow/faux-brow-auburn"
+        },
+        {
+          "id": "071249699874",
+          "name": "MAHOGANY 385",
+          "hex": "#8A3B1D",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyebrow/faux-brow-mahogany"
+        },
+        {
+          "id": "071249699881",
+          "name": "DARK BLONDE 391",
+          "hex": "#855543",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyebrow/faux-brow-dark-blonde"
+        },
+        {
+          "id": "071249699898",
+          "name": "LIGHT BRUNETTE 392",
+          "hex": "#653622",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyebrow/faux-brow-light-brunette"
+        },
+        {
+          "id": "071249699904",
+          "name": "BRUNETTE 389",
+          "hex": "#551D0A",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyebrow/faux-brow-brunette"
+        },
+        {
+          "id": "071249699935",
+          "name": "SOFT BLACK 393",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/makeup/eye/eyebrow/faux-brow-soft-black"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/eyebrow/faux-brow",
+        "retrievedAt": "2026-10-18T03:13:04.761Z",
+        "htmlSha256": "d7659ba7d21cda13d48c85cd3094b91376be4047501ec2155861bf32e3df38b1",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "mascara-071249714775",
+      "category": "mascara",
+      "name": "Volume Liberté Volumizing Mascara for Bold Volume",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/eye/mascara/volume-liberte-mascara",
+      "shades": [
+        {
+          "id": "071249714775",
+          "name": "Blackest Black",
+          "hex": "#060808",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/volume-liberte-mascara"
+        },
+        {
+          "id": "071249714782",
+          "name": "True Brown",
+          "hex": "#4D2C00",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/volume-liberte-mascara-true-brown"
+        },
+        {
+          "id": "071249714768",
+          "name": "Black",
+          "hex": "#231F20",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/volume-liberte-mascara-black"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/mascara/volume-liberte-mascara",
+        "retrievedAt": "2026-10-18T03:13:06.070Z",
+        "htmlSha256": "78ab29a726e1ae28a592fb793398f8cdbe27021bc182a4cae6846995d907cd4f",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "mascara-071249702802",
+      "category": "mascara",
+      "name": "Extensionist Mascara for Extension-like Length & Curl",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/eye/mascara/extensionist-mascara",
+      "shades": [
+        {
+          "id": "071249702802",
+          "name": "Black",
+          "hex": "#231F20",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/extensionist-mascara-black"
+        },
+        {
+          "id": "071249702819",
+          "name": "Blackest Black",
+          "hex": "#060808",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/extensionist-mascara"
+        },
+        {
+          "id": "071249702826",
+          "name": "True Brown",
+          "hex": "#4D2C00",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/extensionist-mascara-true-brown"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/mascara/extensionist-mascara",
+        "retrievedAt": "2026-10-18T03:13:06.556Z",
+        "htmlSha256": "1e0167c602c10ad5621daa7e318dcce700e79cc89e0276849409808430107c08",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "mascara-071249690956",
+      "category": "mascara",
+      "name": "Big Deal Washable & Buildable Mascara for Clump-Resistant Length & Volume",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/eye/mascara/paradise-big-deal-mascara",
+      "shades": [
+        {
+          "id": "071249690956",
+          "name": "Blackest Black",
+          "hex": "#060808",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/paradise-big-deal-mascara"
+        },
+        {
+          "id": "071249690963",
+          "name": "Black",
+          "hex": "#060808",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/paradise-big-deal-mascara-black"
+        },
+        {
+          "id": "071249690970",
+          "name": "Black Brown",
+          "hex": "#1E1A18",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/paradise-big-deal-mascara-black-brown"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/mascara/paradise-big-deal-mascara",
+        "retrievedAt": "2026-10-18T03:13:08.194Z",
+        "htmlSha256": "d2c811b42080b3a735bf485886267cf0bf96f55930609ca41bece8a96fee74eb",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "mascara-071249680988",
+      "category": "mascara",
+      "name": "Voluminous Panorama Washable Mascara for Corner to Corner Volume",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/makeup/eye/mascara/panorama-mascara-washable",
+      "shades": [
+        {
+          "id": "071249680988",
+          "name": "Blackest Black 701",
+          "hex": "#060808",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/panorama-mascara-washable"
+        },
+        {
+          "id": "071249680971",
+          "name": "Black 700",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/panorama-mascara-washable-black"
+        },
+        {
+          "id": "071249680995",
+          "name": "Black Brown 702",
+          "hex": "#1E1A18",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/panorama-mascara-washable-black-brown"
+        },
+        {
+          "id": "071249690673",
+          "name": "All Night Black",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/panorama-mascara-washable-all-night-black"
+        },
+        {
+          "id": "071249702420",
+          "name": "Brown Leather 705",
+          "hex": "#473029",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/panorama-mascara-washable-brown-leather"
+        },
+        {
+          "id": "071249702413",
+          "name": "Burgundy Cashmere 707",
+          "hex": "#5E3037",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/panorama-mascara-washable-burgundy-cashmere"
+        },
+        {
+          "id": "071249702437",
+          "name": "Blue Suede 706",
+          "hex": "#222E4E",
+          "url": "https://www.lorealparisusa.com/makeup/eye/mascara/panorama-mascara-washable-blue-suede"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/makeup/eye/mascara/panorama-mascara-washable",
+        "retrievedAt": "2026-10-18T03:13:09.194Z",
+        "htmlSha256": "36580f74dc4dd704f5ab39776f7a2577993f8c3d6e5cb75351bd6eb61487dacb",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "hair-071249241059",
+      "category": "hair",
+      "name": "Multi-Faceted Shimmering Permanent Hair Color for Bold, Vivid Results at Home",
+      "finish": "shimmer",
+      "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color",
+      "shades": [
+        {
+          "id": "071249241059",
+          "name": "R57 Cherry Crush",
+          "hex": "#5B0E18",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color"
+        },
+        {
+          "id": "071249692127",
+          "name": "10 Jet Black",
+          "hex": "#0A0A0A",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-10-jet-black"
+        },
+        {
+          "id": "071249692134",
+          "name": "26 Black Cherry",
+          "hex": "#52253A",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-26-black-cherry"
+        },
+        {
+          "id": "071249705438",
+          "name": "515 Chocolate Glaze",
+          "hex": "#4B2C28",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-515-chocolate-glaze"
+        },
+        {
+          "id": "071249705445",
+          "name": "53 Caramel Glow",
+          "hex": "#774E2C",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-53-caramel-glow"
+        },
+        {
+          "id": "071249705421",
+          "name": "54 Spiced Copper",
+          "hex": "#87462E",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-54-spiced-copper"
+        },
+        {
+          "id": "071249705452",
+          "name": "560 Hot Chili",
+          "hex": "#882922",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-560-hot-chili"
+        },
+        {
+          "id": "071249692158",
+          "name": "65 Honey Brown",
+          "hex": "#AF8057",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-65-honey-brown"
+        },
+        {
+          "id": "071249315408",
+          "name": "11.21  Bad to the Blonde",
+          "hex": "#C8A37D",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-11-21-ultra-pearl-blonde"
+        },
+        {
+          "id": "071249094563",
+          "name": "20 Black Leather",
+          "hex": "#0F0F11",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-20-black"
+        },
+        {
+          "id": "071249230015",
+          "name": "21 Starry Night",
+          "hex": "#1D2830",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-21-bright-black"
+        },
+        {
+          "id": "071249230039",
+          "name": "36 Chocolate Cherry",
+          "hex": "#581F2B",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-36-deep-burgundy-brown"
+        },
+        {
+          "id": "071249230046",
+          "name": "40 Espresso ",
+          "hex": "#453226",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-40-deeply-brown"
+        },
+        {
+          "id": "071249682432",
+          "name": "Burgundy Blush 42",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-42-burgundy-blush"
+        },
+        {
+          "id": "071249230336",
+          "name": "45 French Roast",
+          "hex": "#2E1710",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-45-deep-bronzed-brown"
+        },
+        {
+          "id": "071249039625",
+          "name": "50 Havana Brown",
+          "hex": "#533C30",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-50-medium-brown"
+        },
+        {
+          "id": "071249682425",
+          "name": "Auburn Rose 52",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-52-auburn-rose"
+        },
+        {
+          "id": "071249407943",
+          "name": "521 Cool Amethyst",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-521-cool-amethyst"
+        },
+        {
+          "id": "071249230077",
+          "name": "56 Brilliant Bordeaux",
+          "hex": "#5B261F",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-56-auburn-brown"
+        },
+        {
+          "id": "071249230107",
+          "name": "60 Crystal Brown",
+          "hex": "#655041",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-60-light-brown"
+        },
+        {
+          "id": "071249383186",
+          "name": "622 Fuchsia-cha",
+          "hex": "#903E59",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-622-fuchsia"
+        },
+        {
+          "id": "071249230114",
+          "name": "63 Sparkling Amber",
+          "hex": "#8A5F3F",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-63-light-golden-brown"
+        },
+        {
+          "id": "071249682418",
+          "name": "Strawberry Blonde 82",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-82-strawberry-blonde"
+        },
+        {
+          "id": "071249230206",
+          "name": "91 Champagne Cocktail",
+          "hex": "#DFB78C",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-91-light-beige-blonde"
+        },
+        {
+          "id": "071249218631",
+          "name": "B61 Downtown Brown",
+          "hex": "#5C3923",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-hi-lift-browns-b61-downtown-brown"
+        },
+        {
+          "id": "071249291733",
+          "name": "C74 Copper Crave",
+          "hex": "#A44D17",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-c74-power-copper"
+        },
+        {
+          "id": "071249315316",
+          "name": "P1 Sapphire Smoke",
+          "hex": "#A8B5CA",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-smokey-blue"
+        },
+        {
+          "id": "071249315286",
+          "name": "P2 Rosy Blush",
+          "hex": "#EDCDCA",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-smokey-pink"
+        },
+        {
+          "id": "071249241042",
+          "name": "R48 Red Velvet",
+          "hex": "#471F26",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-power-reds-r48-deep-auburn-red-velvet"
+        },
+        {
+          "id": "071249217924",
+          "name": "R68 Ruby Rush",
+          "hex": "#7D2A1B",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-r68-rich-auburn-true-red"
+        },
+        {
+          "id": "071249383216",
+          "name": "S1 Smokey Silver",
+          "hex": "#8F8C93",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color-s1-smokey-silver"
+        },
+        {
+          "id": "071249341728",
+          "name": "V28 Midnight Violet",
+          "hex": "#301F31",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-v28-midnight-violet"
+        },
+        {
+          "id": "071249317235",
+          "name": "V38 Violet Noir",
+          "hex": "#5B2433",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-power-violet-v38-intense-deep-violet"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/hair-color/permanent/feria-multi-faceted-shimmering-permanent-hair-color",
+        "retrievedAt": "2026-10-18T03:13:10.099Z",
+        "htmlSha256": "b8cf99774edfe1d8c44ea2ba21383e5590711db2d558a45c07341cfbd10bb2c5",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "hair-071249647196",
+      "category": "hair",
+      "name": "Universal Nudes",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes",
+      "shades": [
+        {
+          "id": "071249647196",
+          "name": "Natural Black 1N",
+          "hex": "#1A150E",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes"
+        },
+        {
+          "id": "071249647233",
+          "name": "Natural Brown 5N",
+          "hex": "#2C1E09",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes-brown-5n"
+        },
+        {
+          "id": "071249647226",
+          "name": "Natural Dark Brown 4N",
+          "hex": "#231A09",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes-dark-brown"
+        },
+        {
+          "id": "071249647240",
+          "name": "Natural Light Brown 6N",
+          "hex": "#34250A",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes-light-brown"
+        },
+        {
+          "id": "071249647202",
+          "name": "Natural Soft Black 2N",
+          "hex": "#170F0D",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes-soft-black"
+        },
+        {
+          "id": "071249647264",
+          "name": "Natural Blonde 8N",
+          "hex": "#835631",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes-blonde-8n"
+        },
+        {
+          "id": "071249647271",
+          "name": "Natural Light Blonde 9N",
+          "hex": "#BB8E67",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes-light-blonde-9n"
+        },
+        {
+          "id": "071249647257",
+          "name": "Natural Dark Blonde 7N",
+          "hex": "#8E6142",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes-dark-blonde"
+        },
+        {
+          "id": "071249692684",
+          "name": "Natural Copper 7NR",
+          "hex": "#A43E15",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes-natural-copper"
+        },
+        {
+          "id": "071249692677",
+          "name": "Natural Dark Red 4NR",
+          "hex": "#451727",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes-natural-dark-red"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-universal-nudes",
+        "retrievedAt": "2026-10-18T03:13:10.524Z",
+        "htmlSha256": "c54ff68a8ddac6fdb48c3e60eb9ff9688bef4bcbf55b06e657063af8c2fb764d",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "hair-071249210529",
+      "category": "hair",
+      "name": "Crème Triple Care Permanent Hair Color for 100% Gray Hair Coverage",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color",
+      "shades": [
+        {
+          "id": "071249210529",
+          "name": "4 Dark Brown",
+          "hex": "#3D2414",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color"
+        },
+        {
+          "id": "0071249210819",
+          "name": "01 Extra Light Ash Blonde",
+          "hex": "#FAE7CF",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-01-extra-light-ash-blonde"
+        },
+        {
+          "id": "071249210826",
+          "name": "02 Extra Light Natural Blonde",
+          "hex": "#DBC2A3",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-02-extra-light-natural-blonde"
+        },
+        {
+          "id": "071249210802",
+          "name": "10 Lightest Ultimate Blonde",
+          "hex": "#DFB78C",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-10-lightest-ultimate-blonde"
+        },
+        {
+          "id": "071249121429",
+          "name": "1 Natural Black",
+          "hex": "#0E0B0D",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-1-natural-black"
+        },
+        {
+          "id": "071249210512",
+          "name": "3 Natural Black",
+          "hex": "#32231C",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-3-natural-black"
+        },
+        {
+          "id": "071249154267",
+          "name": "4A Dark Ash Brown",
+          "hex": "#81695A",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-4a-dark-ash-brown"
+        },
+        {
+          "id": "071249121450",
+          "name": "4AR Dark Chocolate Brown",
+          "hex": "#79553E",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-4ar-dark-chocolate-brown"
+        },
+        {
+          "id": "071249121436",
+          "name": "5AB Mocha Ash Brown",
+          "hex": "#614C30",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-5ab-mocha-ash-brown"
+        },
+        {
+          "id": "071249121443",
+          "name": "5AR Medium Maple Brown",
+          "hex": "#54382E",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-5ar-medium-maple-brown"
+        },
+        {
+          "id": "071249210574",
+          "name": "5G Medium Golden Brown",
+          "hex": "#795D36",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-5g-medium-golden-brown"
+        },
+        {
+          "id": "071249210550",
+          "name": "5 Medium Brown",
+          "hex": "#74503A",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-5-medium-brown"
+        },
+        {
+          "id": "071249210581",
+          "name": "5RB Medium Reddish Brown",
+          "hex": "#421A11",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-5rb-medium-reddish-brown"
+        },
+        {
+          "id": "071249210604",
+          "name": "6A Light Ash Brown",
+          "hex": "#76603E",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-6a-light-ash-brown"
+        },
+        {
+          "id": "071249210611",
+          "name": "6G Light Golden Brown",
+          "hex": "#422211",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-6g-light-golden-brown"
+        },
+        {
+          "id": "071249210598",
+          "name": "6 Light Brown",
+          "hex": "#5F492D",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-6-light-brown"
+        },
+        {
+          "id": "071249210635",
+          "name": "6RB Light Reddish Brown",
+          "hex": "#663A24",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-6rb-light-reddish-brown"
+        },
+        {
+          "id": "071249210628",
+          "name": "6R Light Auburn",
+          "hex": "#7D4938",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-6r-light-auburn"
+        },
+        {
+          "id": "071249210680",
+          "name": "7&#189;A Medium Ash Blonde",
+          "hex": "#745838",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-71-2a-medium-ash-blonde"
+        },
+        {
+          "id": "071249210642",
+          "name": "7 Dark Blonde",
+          "hex": "#9F7C59",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-7-dark-blonde"
+        },
+        {
+          "id": "071249210741",
+          "name": "Medium Light Ash Blonde",
+          "hex": "#F3DABC",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-81-2a-champagne-blonde"
+        },
+        {
+          "id": "071249210727",
+          "name": "8G Medium Golden Blonde",
+          "hex": "#D6B689",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-8g-medium-golden-blonde"
+        },
+        {
+          "id": "071249210697",
+          "name": "8 Medium Blonde",
+          "hex": "#D7B99A",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-8-medium-blonde"
+        },
+        {
+          "id": "071249210734",
+          "name": "8RB Medium Reddish Blonde",
+          "hex": "#A35C40",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-8rb-medium-reddish-blonde"
+        },
+        {
+          "id": "071249210796",
+          "name": "9&#189;NB Lightest Natural Blonde",
+          "hex": "#DFC199",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-91-2nb-lightest-natural-blonde"
+        },
+        {
+          "id": "071249210758",
+          "name": "9 Light Natural Blonde",
+          "hex": "#E9CBAF",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-9-light-natural-blonde"
+        },
+        {
+          "id": "071249247372",
+          "name": "4RM Richesse Collection Dark Mahogany Red ",
+          "hex": "#6B372E",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color-richesse-collection-dark-mahogany-red-4rm"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/hair-color/permanent/excellence-creme-permanent-triple-protection-hair-color",
+        "retrievedAt": "2026-10-18T03:13:12.259Z",
+        "htmlSha256": "add053f84154b7c01a37f46a14ece201d602c9fd785ae3de88ef4bda0b72dea8",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    },
+    {
+      "id": "hair-071249253069",
+      "category": "hair",
+      "name": "Fade-Defying Permanent Hair Color for Salon-Quality Luminous Hair",
+      "finish": "satin",
+      "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color",
+      "shades": [
+        {
+          "id": "071249253069",
+          "name": "5 Medium Brown",
+          "hex": "#544335",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color"
+        },
+        {
+          "id": "071249710067",
+          "name": "2BL Blue Black",
+          "hex": "#1F1D3B",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-2bl-blue-black"
+        },
+        {
+          "id": "071249253342",
+          "name": "10NB Ultra Natural Blonde",
+          "hex": "#CDA883",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-10nb-ultra-natural-blonde"
+        },
+        {
+          "id": "071249154946",
+          "name": "1 Ultimate Black",
+          "hex": "#010101",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-1-ultimate-black"
+        },
+        {
+          "id": "071249682838",
+          "name": "2 Natural Black",
+          "hex": "#010101",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-2-natural-black"
+        },
+        {
+          "id": "071249329214",
+          "name": "3C Cool Darkest Brown",
+          "hex": "#443436",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-3c-cool-darkest-brown"
+        },
+        {
+          "id": "071249253021",
+          "name": "3 Soft Black",
+          "hex": "#1F1817",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-3-soft-black"
+        },
+        {
+          "id": "071249253045",
+          "name": "4A Dark Ash Brown",
+          "hex": "#3D2E25",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-4a-dark-ash-brown"
+        },
+        {
+          "id": "071249253038",
+          "name": "4 Dark Brown",
+          "hex": "#4C3D36",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-4-dark-brown"
+        },
+        {
+          "id": "071249158258",
+          "name": "4M Dark Mahogany Brown",
+          "hex": "#49201C",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-4m-dark-mahogany-brown"
+        },
+        {
+          "id": "071249253052",
+          "name": "4R Dark Auburn",
+          "hex": "#682A32",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-4r-dark-auburn"
+        },
+        {
+          "id": "071249158265",
+          "name": "4SM Dark Soft Mahogany Brown",
+          "hex": "#40261D",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-4sm-dark-soft-mahogany-brown"
+        },
+        {
+          "id": "071249253397",
+          "name": "5&#189;AM Medium Copper Brown",
+          "hex": "#5F3B30",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-51-2am-medium-copper-brown"
+        },
+        {
+          "id": "071249253076",
+          "name": "5A Medium Ash Brown",
+          "hex": "#3F302C",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-5a-medium-ash-brown"
+        },
+        {
+          "id": "071249158289",
+          "name": "5CB Medium Chestnut Brown",
+          "hex": "#6A5B55",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-5cb-medium-chestnut-brown"
+        },
+        {
+          "id": "071249329238",
+          "name": "5C Cool Medium Brown",
+          "hex": "#766764",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-5c-cool-medium-brown"
+        },
+        {
+          "id": "071249241004",
+          "name": "5CG Iced Golden Brown",
+          "hex": "#543629",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-5cg-iced-golden-brown"
+        },
+        {
+          "id": "071249253083",
+          "name": "5G Medium Golden Brown",
+          "hex": "#4F3722",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-5g-medium-golden-brown"
+        },
+        {
+          "id": "071249253090",
+          "name": "5MB Medium Auburn Brown",
+          "hex": "#5C2D27",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-5mb-medium-auburn-brown"
+        },
+        {
+          "id": "071249253137",
+          "name": "6&#189;G Lightest Golden Brown",
+          "hex": "#906B48",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-61-2g-lightest-golden-brown"
+        },
+        {
+          "id": "071249276761",
+          "name": "6AB Chic Auburn Brown",
+          "hex": "#88493A",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-6ab-chic-auburn-brown"
+        },
+        {
+          "id": "071249253113",
+          "name": "6A Light Ash Brown",
+          "hex": "#5D4C3B",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-6a-light-ash-brown"
+        },
+        {
+          "id": "071249253403",
+          "name": "6AM Light Amber Brown",
+          "hex": "#613E27",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-6am-light-amber-brown"
+        },
+        {
+          "id": "071249329245",
+          "name": "6C Cool Light Brown",
+          "hex": "#87766A",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-6c-cool-light-brown"
+        },
+        {
+          "id": "071249253106",
+          "name": "6 Light Brown",
+          "hex": "#755A45",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-6-light-brown"
+        },
+        {
+          "id": "071249253120",
+          "name": "6R Light Auburn",
+          "hex": "#8D4D3F",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-6r-light-auburn"
+        },
+        {
+          "id": "071249253182",
+          "name": "7&#189;A Medium Ash Blonde",
+          "hex": "#A58A75",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-71-2a-medium-ash-blonde"
+        },
+        {
+          "id": "071249253151",
+          "name": "7A Dark Ash Blonde",
+          "hex": "#876F5B",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-7a-dark-ash-blonde"
+        },
+        {
+          "id": "071249253144",
+          "name": "7 Dark Blonde",
+          "hex": "#745842",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-7-dark-blonde"
+        },
+        {
+          "id": "071249253168",
+          "name": "7LA Lightest Auburn",
+          "hex": "#843B2A",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-7la-lightest-auburn"
+        },
+        {
+          "id": "071249253236",
+          "name": "8&#189;A Champagne Blonde",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-81-2a-champagne-blonde"
+        },
+        {
+          "id": "071249253205",
+          "name": "8A Ash Blonde",
+          "hex": "#806246",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-8a-ash-blonde"
+        },
+        {
+          "id": "071249253229",
+          "name": "8G Golden Blonde",
+          "hex": "#CCAB85",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-8g-golden-blonde"
+        },
+        {
+          "id": "071249253199",
+          "name": "8 Medium Blonde",
+          "hex": "#A68261",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-8-medium-blonde"
+        },
+        {
+          "id": "071249253281",
+          "name": "9&#189;A Lightest Ash Blonde",
+          "hex": "#C0A58D",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-91-2a-lightest-ash-blonde"
+        },
+        {
+          "id": "071249253304",
+          "name": "9&#189;NB Lightest Natural Blonde",
+          "hex": "#D5BB9D",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-91-2nb-lightest-natural-blonde"
+        },
+        {
+          "id": "071249253250",
+          "name": "9A Light Ash Blonde",
+          "hex": "#CFBAA4",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-9a-light-ash-blonde"
+        },
+        {
+          "id": "071249253267",
+          "name": "9G Light Golden Blonde",
+          "hex": "#000000",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-9g-light-golden-blonde"
+        },
+        {
+          "id": "071249253274",
+          "name": "9GR Light Reddish Blonde",
+          "hex": "#C9A480",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-9gr-light-reddish-blonde"
+        },
+        {
+          "id": "071249253243",
+          "name": "9 Natural Blonde",
+          "hex": "#D3BD9E",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-9-natural-blonde"
+        },
+        {
+          "id": "071249253618",
+          "name": "LB01 Extra Light Ash Blonde",
+          "hex": "#D3BDA5",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-lb01-extra-light-ash-blonde"
+        },
+        {
+          "id": "071249253625",
+          "name": "LB02 Extra Light Natural Blonde",
+          "hex": "#CEAD8C",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-lb02-extra-light-natural-blonde"
+        },
+        {
+          "id": "071249383247",
+          "name": "Soft Silver Blonde 8S",
+          "hex": "#928380",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-preference-2019-cty"
+        },
+        {
+          "id": "071249253519",
+          "name": "RR04 Intense Dark Red",
+          "hex": "#733942",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-rr04-intense-dark-red"
+        },
+        {
+          "id": "071249218785",
+          "name": "UL51 Hi-Lift Natural Brown",
+          "hex": "#876B58",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-ul51-hi-lift-natural-brown"
+        },
+        {
+          "id": "071249253434",
+          "name": "UL61 Hi-Lift Ash Brown",
+          "hex": "#6A4E39",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-ul61-hi-lift-ash-brown"
+        },
+        {
+          "id": "071249218792",
+          "name": "UL63 Hi-Lift Gold Brown",
+          "hex": "#876445",
+          "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color-ul63-hi-lift-gold-brown"
+        }
+      ],
+      "source": {
+        "url": "https://www.lorealparisusa.com/hair-color/permanent/superior-preference-fade-defying-shine-permanent-hair-color",
+        "retrievedAt": "2026-10-18T03:13:13.220Z",
+        "htmlSha256": "9599f7a81a71b844125f63389eb5fbb591ff582f8295bdf63bf3b906872ee854",
+        "colorBasis": "official-website-hex-swatch-not-physical-calibration"
+      }
+    }
+  ],
+  "importNotes": []
+}

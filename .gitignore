@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+dist/
+.DS_Store
+project.private.config.json
+*.log
+.artifacts/
+web/public/vendor/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+

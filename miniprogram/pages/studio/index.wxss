@@ -1,0 +1,38 @@
+.tryon-heading { margin: 16rpx 0 28rpx; }
+.tryon-heading > text { display: block; }
+.tryon-heading .page-title { font-size: calc(42rpx + .5rem - 8px); line-height: 1.4; }
+.tryon-heading .page-lead { font-size: calc(26rpx + .5rem - 8px); margin-top: 12rpx; }
+.preview-stage { position: relative; background: var(--surface-soft); overflow: hidden; border-radius: 26rpx; }
+.preview-canvas { width: 100%; display: block; }
+.preview-caption { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8rpx; padding: 14rpx 2rpx; color: var(--muted); font-size: max(12px, calc(22rpx + .5rem - 8px)); line-height: 1.6; }
+.preview-caption text:first-child { color: var(--accent); }
+.control-panel { padding-top: 12rpx; }
+.control-notice, .control-hint { display: block; color: var(--muted); line-height: 1.7; font-size: calc(25rpx + .5rem - 8px); margin-bottom: 20rpx; }
+.segmented { display: flex; gap: 4rpx; background: var(--accent-soft); border-radius: 20rpx; padding: 6rpx; margin-bottom: 26rpx; }
+.segment { flex: 1; min-width: 0; margin: 0; min-height: 48px; border-radius: 16rpx; padding: 12rpx 6rpx; font-size: calc(25rpx + .5rem - 8px); background: transparent; line-height: 1.5; display: flex; justify-content: center; align-items: center; color: var(--muted); }
+.segment.is-active { color: var(--accent); background: var(--surface); box-shadow: 0 2rpx 8rpx rgba(60,35,50,.06); font-weight: 600; }
+.control-label, .section-heading { display: flex; justify-content: space-between; align-items: center; gap: 12rpx; font-size: calc(27rpx + .5rem - 8px); margin-top: 22rpx; }
+.control-label > text:last-child { color: var(--accent); font-variant-numeric: tabular-nums; }
+.section-label { font-weight: 600; }
+slider { margin: 16rpx 6rpx 24rpx; }
+.action-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12rpx; margin: 12rpx 0 20rpx; }
+.action-row .text-button { margin: 0; }
+.template-note { color: var(--muted); font-size: max(12px, calc(22rpx + .5rem - 8px)); }
+.formula-list { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12rpx; margin: 20rpx 0 24rpx; }
+.formula { min-width: 0; min-height: 48px; margin: 0; padding: 20rpx 6rpx 16rpx; border-radius: 20rpx; background: var(--surface); border: 2rpx solid var(--line); color: var(--ink); line-height: 1.6; transition: background-color 140ms ease,border-color 140ms ease; }
+.formula text { display: block; font-size: calc(26rpx + .5rem - 8px); }
+.formula text + text { color: var(--muted); font-size: max(12px, calc(21rpx + .5rem - 8px)); margin-top: 4rpx; }
+.formula.is-selected { border-color: var(--accent); background: var(--accent-soft); }
+.formula-swatch { width: 72rpx; height: 40rpx; margin: 0 auto 16rpx; border-radius: 60% 42% 58% 38%; transform: rotate(-12deg); background: #c6a18b; }
+.formula-swatch--sheer { background: repeating-linear-gradient(100deg,#e0c5b5 0,#e0c5b5 4rpx,#ead8cd 5rpx,#ead8cd 7rpx); }
+.formula-swatch--concealer { background: #b88c73; box-shadow: inset 0 5rpx 0 #c79e87; }
+.formula-swatch--soft { background: radial-gradient(ellipse,#c5a18b 15%,#dfc7b6 65%,#efe2da 100%); }
+.shade-row { display: flex; align-items: center; flex-wrap: wrap; gap: 16rpx; border-bottom: 1rpx solid var(--line); padding: 8rpx 0 22rpx; font-size: calc(25rpx + .5rem - 8px); }
+.shade-dot { flex: none; width: 48rpx; height: 48rpx; border-radius: 50%; border: 1rpx solid var(--line); }
+.shade-code { margin-left: auto; font-family: Consolas, monospace; color: var(--muted); }
+.fine-toggle { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12rpx; min-height: 48px; width: 100%; margin: 0; padding: 16rpx 0; border-top: 1rpx solid var(--line); background: transparent; color: var(--ink); font-size: calc(26rpx + .5rem - 8px); line-height: 1.6; border-radius: 0; text-align: left; }
+.fine-toggle text:last-child { color: var(--accent); font-size: max(12px, calc(23rpx + .5rem - 8px)); }
+.fine-panel { background: var(--surface-soft); padding: 4rpx 20rpx 22rpx; border-radius: 20rpx; }
+.preview-disclaimer { display: block; font-size: max(12px, calc(23rpx + .5rem - 8px)); color: var(--muted); line-height: 1.8; margin-top: 32rpx; }
+.tryon-page .text-button { font-size: calc(28rpx + .5rem - 8px); line-height: 1.7; padding-top: 12rpx; padding-bottom: 12rpx; }
+.tryon-page .primary-button, .tryon-page .secondary-button { font-size: calc(30rpx + .5rem - 8px); line-height: 1.5; padding: 16rpx 20rpx; }

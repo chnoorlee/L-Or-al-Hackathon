@@ -1,0 +1,14 @@
+{
+  "catalogVersion": "production-empty-2026-10-15",
+  "status": "awaiting_verified_product_data",
+  "entries": [],
+  "missingDependencies": [
+    "已核验的欧莱雅集团产品系列与 SKU 清单",
+    "授权可用的产品图片",
+    "同一验证协议下可比较的色样数据",
+    "颜色证据来源与适用范围",
+    "已真机核验的官方商品路由"
+  ],
+  "note": "禁止使用网页色块、包装渲染图或推测值填充颜色证据。"
+}
+

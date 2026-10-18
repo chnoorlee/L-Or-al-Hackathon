@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/entry/index",
+    "pages/sample/index",
+    "pages/result/index",
+    "pages/studio/index",
+    "pages/live/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f9f7fa",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "匀色遮瑕助手",
+    "backgroundColor": "#f9f7fa",
+    "backgroundTextStyle": "dark"
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
+

@@ -1,0 +1,153 @@
+<page-meta root-font-size="system" />
+
+<view class="page-shell sample-page">
+  <view class="studio-masthead"><text class="studio-wordmark" aria-hidden="true">EVEN TONE</text><text class="studio-caption">取样工作台</text></view>
+  <view class="workflow-progress" aria-label="流程进度：第 2 步，共 3 步">
+    <text class="workflow-step workflow-step--done">选择图片</text>
+    <text class="workflow-step workflow-step--current" aria-current="step">确认取样</text>
+    <text class="workflow-step">虚拟试妆</text>
+  </view>
+
+  <view class="sample-heading">
+    <view>
+      <text class="step-kicker">本地取色 · 第 2 步</text>
+      <text class="sample-title" aria-role="heading" aria-level="1">确认两处取样</text>
+    </view>
+    <view class="zoom-tools" aria-label="图片缩放">
+      <button class="icon-button" hover-class="control-hover" disabled="{{isAnalyzing || zoom <= 1}}" bindtap="onZoomOut" aria-label="缩小图片"><text aria-hidden="true">−</text></button>
+      <text class="zoom-value" aria-live="polite">{{zoomText}}</text>
+      <button class="icon-button" hover-class="control-hover" disabled="{{isAnalyzing || zoom >= 4}}" bindtap="onZoomIn" aria-label="放大图片"><text aria-hidden="true">＋</text></button>
+    </view>
+  </view>
+
+  <text class="sr-only" aria-role="status" aria-live="polite" aria-atomic="true">{{statusText}}</text>
+
+  <view class="sample-prompt">
+    <text class="sample-prompt__mark" aria-hidden="true"></text>
+    <text>{{promptText}}</text>
+  </view>
+
+  <movable-area id="photoStage" class="photo-stage" scale-area="true" capture-bind:touchstart="onStageInteraction">
+    <movable-view
+      class="photo-layer"
+      style="{{photoLayerStyle}}"
+      direction="all"
+      scale="true"
+      scale-min="1"
+      scale-max="4"
+      scale-value="{{zoom}}"
+      animation="false"
+      disabled="{{isAnalyzing}}"
+      bindscale="onScale"
+    >
+      <image id="analysisImage" class="analysis-image" style="{{imageStyle}}" src="{{imagePath}}" mode="scaleToFill" bindtap="onImageTap" aria-label="本次取样图片"></image>
+
+      <view
+        wx:if="{{coverMarkerStyle}}"
+        class="sample-marker {{activeMarker === 'cover' ? 'sample-marker--active' : ''}}"
+        style="{{coverMarkerStyle}}"
+        data-marker="cover"
+        catchtouchstart="onMarkerTouchStart"
+        catchtouchmove="onMarkerTouchMove"
+        catchtouchend="onMarkerTouchEnd"
+        catchtouchcancel="onMarkerTouchCancel"
+        aria-role="button"
+        aria-pressed="{{activeMarker === 'cover'}}"
+        aria-label="A 待遮盖处，{{activeMarker === 'cover' ? '已选中' : '未选中'}}，可拖动或使用下方按钮调整"
+      >
+        <view class="marker-ring marker-ring--cover"><text>A</text></view>
+      </view>
+
+      <view
+        wx:if="{{referenceMarkerStyle}}"
+        class="sample-marker {{activeMarker === 'reference' ? 'sample-marker--active' : ''}}"
+        style="{{referenceMarkerStyle}}"
+        data-marker="reference"
+        catchtouchstart="onMarkerTouchStart"
+        catchtouchmove="onMarkerTouchMove"
+        catchtouchend="onMarkerTouchEnd"
+        catchtouchcancel="onMarkerTouchCancel"
+        aria-role="button"
+        aria-pressed="{{activeMarker === 'reference'}}"
+        aria-label="B 希望接近的周边肤色，{{activeMarker === 'reference' ? '已选中' : '未选中'}}，可拖动或使用下方按钮调整"
+      >
+        <view class="marker-ring marker-ring--reference"><text>B</text></view>
+      </view>
+    </movable-view>
+    <view wx:if="{{!layoutReady}}" class="stage-loading" aria-hidden="true">正在准备图片</view>
+  </movable-area>
+
+  <view class="sample-controls">
+    <view class="marker-control">
+      <text class="tool-label">当前区域</text>
+      <view class="marker-switch" aria-label="当前调整区域">
+        <button class="marker-switch__button {{activeMarker === 'cover' ? 'marker-switch__button--active' : ''}}" hover-class="control-hover" disabled="{{isAnalyzing}}" data-marker="cover" bindtap="onSelectMarker" aria-pressed="{{activeMarker === 'cover'}}" aria-label="A 待遮盖处，{{activeMarker === 'cover' ? '已选中' : hasCover ? '未选中，已放置' : '未选中，未放置'}}">
+          <text>A 待遮盖处</text>
+          <text class="marker-switch__state">{{activeMarker === 'cover' ? '已选中' : hasCover ? '已放置' : '未放置'}}</text>
+        </button>
+        <button class="marker-switch__button {{activeMarker === 'reference' ? 'marker-switch__button--active' : ''}}" hover-class="control-hover" disabled="{{isAnalyzing}}" data-marker="reference" bindtap="onSelectMarker" aria-pressed="{{activeMarker === 'reference'}}" aria-label="B 希望接近的周边肤色，{{activeMarker === 'reference' ? '已选中' : hasReference ? '未选中，已放置' : '未选中，未放置'}}">
+          <text>B 周边肤色</text>
+          <text class="marker-switch__state">{{activeMarker === 'reference' ? '已选中' : hasReference ? '已放置' : '未放置'}}</text>
+        </button>
+      </view>
+    </view>
+  </view>
+
+  <view class="refinement-toolbar">
+    <button class="text-button" disabled="{{isAnalyzing || navigationBusy}}" bindtap="onToggleFineTune" aria-expanded="{{fineTuneExpanded}}" aria-controls="fine-tune">{{fineTuneExpanded ? '收起微调 ↑' : '微调范围与位置 ↓'}}</button>
+    <button class="text-button" disabled="{{!canUndo || isAnalyzing || navigationBusy}}" bindtap="onUndoSample">撤销上次</button>
+  </view>
+
+  <view wx:if="{{fineTuneExpanded}}" id="fine-tune" class="fine-tune">
+    <view class="radius-control">
+      <text class="radius-label">取样范围</text>
+      <view class="radius-buttons">
+        <button class="icon-button" hover-class="control-hover" disabled="{{!activeMarker || isAnalyzing || cannotShrink}}" bindtap="onShrinkRadius" aria-label="缩小取样范围"><text aria-hidden="true">−</text></button>
+        <button class="icon-button" hover-class="control-hover" disabled="{{!activeMarker || isAnalyzing || cannotGrow}}" bindtap="onGrowRadius" aria-label="放大取样范围"><text aria-hidden="true">＋</text></button>
+      </view>
+    </view>
+
+  <view class="position-control" aria-label="移动当前取样区域">
+    <text class="position-control__label">移动 {{activeMarkerText}}</text>
+    <view class="position-grid">
+      <view class="position-grid__spacer" aria-hidden="true"></view>
+      <button class="position-button" hover-class="control-hover" disabled="{{!canMoveActiveMarker || isAnalyzing}}" data-direction="up" bindtap="onNudgeMarker" aria-label="向上移动当前取样区域"><text aria-hidden="true">↑</text></button>
+      <view class="position-grid__spacer" aria-hidden="true"></view>
+      <button class="position-button" hover-class="control-hover" disabled="{{!canMoveActiveMarker || isAnalyzing}}" data-direction="left" bindtap="onNudgeMarker" aria-label="向左移动当前取样区域"><text aria-hidden="true">←</text></button>
+      <button class="position-button position-button--center" hover-class="control-hover" disabled="{{!activeMarker || !layoutReady || isAnalyzing}}" bindtap="onCenterMarker" aria-label="将当前取样区域放到图片中心">{{canMoveActiveMarker ? '居中' : '放置'}}</button>
+      <button class="position-button" hover-class="control-hover" disabled="{{!canMoveActiveMarker || isAnalyzing}}" data-direction="right" bindtap="onNudgeMarker" aria-label="向右移动当前取样区域"><text aria-hidden="true">→</text></button>
+      <view class="position-grid__spacer" aria-hidden="true"></view>
+      <button class="position-button" hover-class="control-hover" disabled="{{!canMoveActiveMarker || isAnalyzing}}" data-direction="down" bindtap="onNudgeMarker" aria-label="向下移动当前取样区域"><text aria-hidden="true">↓</text></button>
+      <view class="position-grid__spacer" aria-hidden="true"></view>
+    </view>
+  </view>
+  </view>
+
+  <text class="tool-label swatch-label">取样对比</text>
+  <view class="swatch-strip" aria-label="取样颜色预览：{{coverColorText}}；{{referenceColorText}}">
+    <view class="swatch-item">
+      <view class="swatch-chip swatch-chip--empty" style="{{coverSwatchStyle}}"><text wx:if="{{!coverColor}}">A</text></view>
+      <view class="swatch-copy"><text class="swatch-name">A 待遮盖处</text><text class="swatch-state">{{coverStateText}}</text><text class="swatch-value">{{coverColorText}}</text></view>
+    </view>
+    <view class="swatch-bridge" aria-hidden="true"><text>→</text></view>
+    <view class="swatch-item">
+      <view class="swatch-chip swatch-chip--empty" style="{{referenceSwatchStyle}}"><text wx:if="{{!referenceColor}}">B</text></view>
+      <view class="swatch-copy"><text class="swatch-name">B 周边肤色</text><text class="swatch-state">{{referenceStateText}}</text><text class="swatch-value">{{referenceColorText}}</text></view>
+    </view>
+  </view>
+
+  <text class="lighting-guidance">请选择光线相近、无明显反光或阴影的位置</text>
+
+  <view wx:if="{{messageText}}" class="{{messageKind}}" aria-role="alert" aria-live="assertive">{{messageText}}</view>
+
+  <view wx:if="{{isAnalyzing}}" class="analysis-panel">
+    <view class="analysis-panel__copy"><text class="status-mark" aria-hidden="true"></text><text>{{analysisStageText}}</text></view>
+    <button class="text-button" bindtap="onCancelAnalysis">取消分析</button>
+  </view>
+
+  <view class="sample-actions">
+    <button class="primary-button" hover-class="button-hover" disabled="{{!canAnalyze || isAnalyzing || navigationBusy}}" loading="{{isAnalyzing}}" aria-busy="{{isAnalyzing || navigationBusy}}" bindtap="onTryOn">自动圈选并试妆</button>
+    <button class="text-button" disabled="{{!canAnalyze || isAnalyzing || navigationBusy}}" bindtap="onAnalyze">查看取样结果</button>
+    <button class="secondary-button" hover-class="control-hover" disabled="{{isAnalyzing || navigationBusy}}" bindtap="onChooseAnother">重新拍摄/选择</button>
+  </view>
+</view>

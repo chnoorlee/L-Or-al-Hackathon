@@ -1,0 +1,38 @@
+{
+  "name": "even-tone-concealer-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "匀色遮瑕助手微信原生小程序 MVP",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "verify": "npm run typecheck && npm test",
+    "review:ui": "node scripts/review-ui.mjs",
+    "check:wechat": "node scripts/check-wechat-templates.mjs",
+    "test:native": "node scripts/native-smoke.mjs",
+    "test:native-face": "node scripts/native-face-smoke.mjs",
+    "test:live-renderer": "node scripts/check-live-renderer.mjs",
+    "web:assets": "node scripts/prepare-web-assets.mjs",
+    "web:catalog": "node scripts/import-web-catalog.mjs",
+    "web:dev": "vite web --host 0.0.0.0 --port 5173",
+    "web:check": "tsc -p web/tsconfig.json",
+    "web:build": "npm run web:check && vite build web --outDir ../dist/web --emptyOutDir",
+    "web:preview": "vite preview web --host 0.0.0.0 --port 5173 --outDir ../dist/web",
+    "web:serve": "node scripts/serve-web.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@vitest/coverage-v8": "^4.1.11",
+    "miniprogram-api-typings": "^5.2.3",
+    "playwright": "^1.64.1",
+    "typescript": "^7.0.2",
+    "vite": "8.3.4",
+    "vitest": "^4.1.11"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.1.1"
+  }
+}

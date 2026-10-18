@@ -1,0 +1,24 @@
+{
+  "appid": "wxac78e6fcd945d066",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "miniprogram/",
+  "projectname": "even-tone-concealer-assistant",
+  "description": "匀色遮瑕助手本地虚拟试妆原型",
+  "setting": {
+    "__usePrivacyCheck__": true,
+    "useCompilerPlugins": [
+      "typescript"
+    ],
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "urlCheck": true,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": true,
+    "condition": false
+  },
+  "condition": {}
+}
