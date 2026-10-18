@@ -60,6 +60,16 @@ describe("interactive color region and cosmetic simulation", () => {
     const split = engine.render({ ...DEFAULT_RENDER, split: 50 });
     for (let y = 0; y < 80; y++) expect(split.slice(y * 400, y * 400 + 200)).toEqual(data.slice(y * 400, y * 400 + 200));
   });
+  it("previews an explicit product color only inside the region and retains the original B reference", () => {
+    const { engine, data } = fixture(); engine.segment();
+    const options = { ...DEFAULT_RENDER, mode: "effect" as const, strength: 100, outline: false };
+    const output = engine.render(options, { r: 186, g: 140, b: 109 });
+    const center = (40 * 100 + 32) * 4;
+    expect(Array.from(output.slice(center, center + 3))).toEqual([186, 140, 109]);
+    expect(output.slice(0, 4)).toEqual(data.slice(0, 4));
+    expect(Array.from(engine.render(options).slice(center, center + 3))).toEqual([158, 111, 86]);
+    expect(() => engine.render(options, { r: NaN, g: 0, b: 0 })).toThrow();
+  });
   it("creates continuous brush strokes, erases, and restores one complete gesture", () => {
     const { engine } = fixture(); engine.checkpoint();
     engine.brush({ x: 0.1, y: 0.5 }, { x: 0.9, y: 0.5 }, 0.03, false);

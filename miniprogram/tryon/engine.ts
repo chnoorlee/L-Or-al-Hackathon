@@ -229,13 +229,15 @@ export class TryOnEngine {
       reference: { ...this.reference }, coverLuminance: this.coverLuminance };
   }
 
-  render(options: RenderOptions): Uint8ClampedArray {
+  render(options: RenderOptions, targetColor?: RgbColor): Uint8ClampedArray {
     this.assertAlive();
     const output = this.source.slice();
     const strength = finite(options.strength, 0, 100) / 100;
     const split = finite(options.split, 0, 100) / 100;
     const feather = finite(options.feather, 0, 16);
-    const shade = this.shade(options.warmth, options.brightness);
+    const shade = targetColor ? {
+      r: finite(targetColor.r, 0, 255), g: finite(targetColor.g, 0, 255), b: finite(targetColor.b, 0, 255),
+    } : this.shade(options.warmth, options.brightness);
     if (!(["sheer", "concealer", "soft"] as string[]).includes(options.formula) ||
         !(["effect", "split", "original"] as string[]).includes(options.mode)) throw new RangeError("Invalid rendering mode");
     if (options.mode === "original") return output;
